@@ -1,0 +1,218 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+	background: #FFFFFF;
+	color: #231f20;
+	/* font-size: 25px; */
+}
+
+.header {
+	height: 2rem;
+	background: #FD5A02;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.headerLeft {
+	width: 0.8rem;
+	height: 0.8rem;
+	position: absolute;
+	left: 0.4rem;
+	bottom: 0.6rem;
+	
+}
+
+.header span {
+	font-size: 0.75rem;
+	color: #FFFFFF;
+}
+
+.banner {
+	width: 100%;
+	height: 8rem;
+	background: url(../img/images3/centerbg.png) no-repeat center center;
+	background-size: 100% 8rem;
+	position: relative;
+}
+
+
+.personLogo {
+     width: 100%;
+     height: 3.5rem;
+     background: transparent;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-content: center;
+     align-items: center;
+     position: absolute;
+     top: 1rem;
+     
+     
+}
+.personLogoImg{
+	width: 3.5rem;
+	height: 3.5rem;
+	border-radius: 10rem;
+
+	
+}
+.bannerTheme{
+	position: absolute;
+	top: 4.7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1rem;
+}
+
+.bannerWords {
+    font-size: 0.7rem;
+    color: #FFFFFF;
+}
+
+.bannerTitle {
+	position: absolute;
+	top: 6.2rem;
+	width: 100%;
+	height: 1.8rem;
+	background: rgb(0, 0, 0, 0.2);
+	display: flex;
+	flex-direction: row;
+}
+
+.myCollect {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	color: #FFFFFF;
+	font-size: 0.7rem;
+	width: 50%;
+}
+
+.myCollectLeft {
+	width: 0.8rem;
+	height: 0.8rem;
+	margin-left: 0.8rem;
+	margin-right: 0.3rem;
+	margin-bottom: 0.1rem;
+}
+
+.line {
+	width: 0.09rem;
+	height: 1.8rem;
+	background: #FFFFFF;
+}
+.collectWords{
+	font-size: 0.6rem;
+}
+.back{
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	align-items: center;
+	text-decoration: none;
+}
+
+.backShopping {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	margin-top: 0.2rem;
+	margin-left: 1.8rem;
+}
+
+.backMall {
+	font-size: 0.6rem;
+	color: #FFFFFF;
+	margin-left: 1.8rem;
+	margin-bottom: 0.2rem;
+}
+
+.arrrowRight {
+	width: 0.6rem;
+	height: 0.6rem;
+	margin-left: 0.3rem;
+	margin-bottom: 0.2rem;
+}
+.personalJiFen{
+	height: 1.3rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0.5rem 1.5rem;
+	background: #FFFFFF;
+	border-bottom: 0.4rem solid #EEEDF4;
+}
+.myExtra{
+	font-size: 0.7rem;
+	font-weight: 600;
+}
+.tiXian{
+	width: 3rem;
+	height: 1rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	border: none;
+	border-radius: 0.15rem;
+	background: #FD5A02;
+	outline: none;
+	margin-left: 2.5rem;
+}
+.yiJianTiXian{
+	color: #FFFFFF;
+	font-size: 0.6rem;
+	font-weight: 600;
+}
+
+.JiFenDetail{
+	display: flex;
+	flex-direction: column;
+	padding-top: 0.5rem;
+	
+}
+.JiFenHeader{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	border-bottom: 0.04rem solid #EEEDF4;
+	padding-bottom: 0.4rem;
+	padding-left: 0.4rem;
+	padding-right: 0.4rem;
+}
+.JiFenHeader span{
+	font-size: 0.6rem;
+	font-weight: 600;
+}
+.JiFenDetail ul{
+	display: flex;
+	flex-direction: column;
+	padding-top: 0.4rem;
+
+}
+.JiFenDetail ul li {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	font-size: 0.6rem;
+	font-weight: 600;
+	margin-bottom: 0.3rem;
+}
+.extraDigitalFirst{
+	color: #b31415;
+}
+.extraDigitalSecond{
+	color: #b31415;
+}

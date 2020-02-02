@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>泰公惠职公商城</title>
+		<meta name="viewport" content="width=device-width,initial-scale-1.0,maximum-scale=1.0,user-scalable=0" />
+		<meta name="keywords" content="泰公惠职公商城">
+		<meta name="description" content="泰公惠职公商城" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="Cache-Control" content="no-cache,must-revalidate" />
+		<meta http-equiv="expires" content="0" />
+		<link href="css/reset.css" type="text/css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/mui.min.css" type="text/css">
+		<link href="css/mui.picker.css" rel="stylesheet" type="text/css" />
+		<link href="css/mui.poppicker.css" rel="stylesheet" type="text/css" />
+		<link href="css/submit.css" type="text/css" rel="stylesheet" />
+		<script src="js/jquery.min.js" type="text/javascript" charset="UTF-8"></script>
+		<script src="js/font.js" type="text/javascript" charset="UTF-8"></script>
+		<style>
+			.mui-poppicker-body {
+				height: 264px;
+			}
+			
+			.mui-poppicker {
+				height: 10.5rem;
+			}
+			.extraInput{
+				border: 0.06rem solid #909095 !important;
+				width: 4rem !important;
+				height: 1.4rem !important;
+				padding-left: 0.2rem !important;
+			}
+			.jiFenInput{
+				border: 0.06rem solid #909095 !important;
+				width: 4rem !important;
+				height: 1.4rem !important;
+				padding-left: 0.2rem !important;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="header">
+			<a href="shoppingDetail.html">
+				<img class="headerLeft" src="img/images3/zuojiantou.png" />
+			</a>
+			<span>提交订单</span>
+		</div>
+		<div id="information" class="information">
+			<ul>
+				<li class="shouhuo">
+					<span>收货人：</span>
+					<span>刘晓晓</span>
+					<span>18262296757</span>
+				</li>
+
+				<li class="address">
+					<span>江苏 无锡 新区 学校</span>
+					<img class="right" src="img/images3/arrow-right.png" />
+				</li>
+			</ul>
+		</div>
+		<div class="goodsDetail">
+			<div class="goodsDetailHeader">
+				<span>商品详情</span>
+			</div>
+			<div class="goodsInformation">
+				<img class="hu" src="img/images3/pro-1.jpg" />
+				<ul>
+					<li>
+						<span>blossom hill 一壶三杯|花间堂酒店款</span>
+						<span>¥178.00</span>
+						<span class="guige">
+						<i>规格：一套</i>
+						<i class="guigeSecond">x1</i>
+					</span>
+						<span>型号：1L</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="message">
+			<span>给卖家留言：</span>
+			<input class="liuyan" id name value placeholder="选填,填写您和卖家达成一致的要求" />
+		</div>
+		<div class="address_modal" style="display: none;">
+			<div class="address_bg" style="display: block;"></div>
+			<div class="addressDetail" style="display: block;">
+				<div class="selectAddress">
+					<span>选择收货地址</span>
+				</div>
+				<div class="addressAll">
+					<div class="addressInformation">
+
+						<div id="select" class="InformationLeft"></div>
+						<div class="InformationDetai">
+							<span class="PersonInformation">收货人：刘晓晓 18262296757</span>
+							<span>江苏 无锡 新区 学校1</span>
+						</div>
+						<img class="delete"  src="img/images3/del.png" />
+
+					</div>
+					<div class="informationLine"></div>
+					<div class="addressInformation">
+
+						<div class="InformationLeft"></div>
+						<div class="InformationDetai">
+							<span class="PersonInformation">收货人：刘晓晓 18262296757</span>
+							<span>江苏 无锡 新区 学校1</span>
+						</div>
+						<img class="delete"  src="img/images3/del.png" />
+
+					</div>
+					<div class="informationLine"></div>
+					<div class="addressInformation">
+
+						<div class="InformationLeft"></div>
+						<div class="InformationDetai">
+							<span class="PersonInformation">收货人：刘晓晓 18262296757</span>
+							<span>江苏 无锡 新区 学校1</span>
+						</div>
+						<img class="delete"  src="img/images3/del.png" />
+
+					</div>
+				</div>
+				<div class="addAddress">
+					<span class="addNewAddress">增加新地址</span>
+				</div>
+
+			</div>
+
+		</div>
+		<!--<div class="makeDecision_modal" style="display: none;">
+			<div class="makeDecision_bg" style="display: block;"></div>
+			<div class="makeDecisionDetail" style="display: block;">
+				<div class="deleteText">
+					<span class="deleteShouAddress">删除收货地址</span>
+					<span>确认删除该条记录？</span>
+				</div>
+				<div class="deleteMakeSure">
+					<div class="deleteSure">确认</div>
+					<div class="deleteCancel">取消</div>
+				</div>
+			</div>
+		</div>-->
+		<div class="shouhuo_modal" style="display: none;">
+			<div class="shouhuo_bg" style="display: block;"></div>
+			<div class="shouhuoInformation" style="display: block;">
+				<div class="shouhuoMain">
+					<ul class="shouHuoPerson">
+						<li>收货人</li>
+						<input class="shouHuoName" id name value placeholder="名字" />
+					</ul>
+					<div class="shouHuoLine"></div>
+					<ul class="shouHuoPerson">
+						<li>手机号</li>
+						<input class="shouHuoName" id name value placeholder="手机" />
+					</ul>
+					<div class="shouHuoLine"></div>
+					<ul class="shouHuoPerson" id='showCityPicker3'>
+						<li>选择地区</li>
+						<input class="detailArea" id='cityResult3' name value placeholder="详细地区" />
+
+					</ul>
+					<div class="shouHuoLine"></div>
+					<ul class="shouHuoPerson">
+						<li>详细地址</li>
+						<input class="doorInformation" name value placeholder="街道门牌信息" />
+					</ul>
+					<div class="shouHuoLine"></div>
+					<ul class="shouHuoPerson">
+						<li>邮政编码</li>
+						<input class="doorInformation" id name value placeholder="邮政编码" />
+					</ul>
+					<div class="shouHuoLine"></div>
+				</div>
+				<div class="makeDecision">
+					<button class="cancel">
+						<span>取消</span>
+					</button>
+					<button class="makeSure">
+						<span>确定</span>
+					</button>
+				</div>
+			</div>
+
+		</div>
+		<div class="receivingMethods">
+			<ul class="express">
+				<li class="expressWords">快递 邮费:¥10</li>
+				<li class="expressCircleLi">
+					<div class="expressCircle"></div>
+				</li>
+			</ul>
+
+			<ul class="ziTi">
+				<li class="ziTiWords">到店自提</li>
+				<li class="ziTiCircleLi">
+					<div class="ziTiCircle"></div>
+				</li>
+			</ul>
+
+			<div class="ziTiXiangQi" style="display: none;">
+				<ul class="ziTiDian">
+					<li class="ziTiDetail">
+						<span>自提点:店铺名称店铺联系方式</span>
+						<span>提货地址:店铺地址</span>
+					</li>
+					<li class="arrrowRight">
+						<img src="img/images3/arrow-right.png" />
+					</li>
+				</ul>
+				<div class="expressLine"></div>
+				<ul class="ziTiDian">
+					<li class="ziTiDetail">
+						<span>预约人</span>
+					</li>
+					<li class="daoDianName">
+						<input class="dname" id name value placeholder="到店人姓名" />
+					</li>
+				</ul>
+				<div class="expressLine"></div>
+				<ul class="ziTiDian">
+					<li class="ziTiDetail">
+						<span>联系方式</span>
+					</li>
+					<li class="lianXi">
+						<input class="dname" id name value  placeholder="用于短信接收和便于卖家联系" />
+					</li>
+				</ul>
+				<div class="expressLine"></div>
+				<ul class="ziTiDian">
+					<li class="ziTiDetail">
+						<span>提货时间</span>
+					</li>
+					<li class="time">
+						<input class="dname" id name value  placeholder="09:00-21:00" />
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="ziTi_modal" style="display: none;">
+			<div class="ziTi_bg" style="display: block;"></div>
+			<div class="ziTiInformation" style="display: block;">
+				<div class="ziTiHeader">
+					<span>自提选择</span>
+				</div>
+				<div class="selectDetail">
+					<ul class="selectUl">
+						<li>
+							<span>测试门店0510-88886666</span>
+							<span class="xinQu">新区科技园B栋7楼</span>
+						</li>
+						<div class="selectCircle"></div>
+					</ul>
+					<ul class="selectUl">
+						<li>
+							<span>测试门店0510-88886666</span>
+							<span class="xinQu">新区科技园B栋7楼</span>
+						</li>
+						<div class="selectCircle"></div>
+					</ul>
+				</div>
+				<div class="selectMakeSure">
+					<button class="selectCancel">取消</button>
+					<button class="selectSure">确定</button>
+				</div>
+			</div>
+		</div>
+		<div class="payMethods">
+			<ul class="jiFen">
+				<li class="jiFenWords">使用积分</li>
+				<li class="jiFenCircleLi">
+					<div class="jiFenCircle"></div>
+				</li>
+			</ul>
+
+			<div class="jiFen_modal" style="display: none;">
+				<div class="jiFen_bg" style="display: block;"></div>
+				<div class="jiFenDetail" style="display: block;">
+					<div class="jiFenHeader">
+						<span>积分</span>
+					</div>
+					<div class="vipJiFen">
+						<span>
+							会员积分:(310)
+						</span>
+						<div class="jiFenDigital">
+							<span class="useJiFen">使用积分:</span>
+							<input class="jiFenInput" id name value type="number" placeholder="0" />
+						</div>
+					</div>
+					<div class="jiFenMakeSure">
+						<button class="jiFenCancel">取消</button>
+						<button class="jiFenSure">确定</button>
+					</div>
+				</div>
+
+			</div>
+			<ul class="extra">
+				<li class="extraWords">使用余额</li>
+				<li class="extraCircleLi">
+					<div class="extraCircle"></div>
+				</li>
+			</ul>
+
+			<div class="vipExtra_modal" style="display: none;">
+				<div class="vipExtra_bg" style="display: block;"></div>
+				<div class="vipExtraDetail" style="display: block;">
+					<div class="vipExtraHeader">
+						<span>会员余额</span>
+					</div>
+					<div class="vipExtra">
+						<span>
+							账户余额:(10000.00)
+						</span>
+						<div class="vipExtraDigital">
+							<span class="useExtra">使用余额:</span>
+							<input class="extraInput" id name value type="number"  placeholder="0" />
+						</div>
+					</div>
+					<div class="extraMakeSure">
+						<button class="extraCancel">取消</button>
+						<button class="extraSure">确定</button>
+					</div>
+				</div>
+			</div>
+			<ul class="extra">
+				<li class="extraWords">使用优惠券</li>
+				<li class="youHuiCircleLi">
+					<div class="youHuiCircle"></div>
+				</li>
+			</ul>
+			<div class="totalLine"></div>
+			<div class="youHui_modal" style="display: none;">
+				<div class="youHui_bg" style="display: block;"></div>
+				<div class="youHuiDetail" style="display: block;">
+					<div class="youHuiHeader">
+						<span>优惠券选择</span>
+					</div>
+					<div class="youHuiInformation">
+						<span>
+							暂无可用的优惠券
+						</span>
+
+					</div>
+					<div class="youHuiMakeSure">
+						<button class="youHuiCancel">取消</button>
+						<button class="youHuiSure">确定</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="totalMoney">
+			<span>总金额 ¥178</span>
+		</div>
+		<div class="footer">
+			<a href="shoppingDetail.html">
+				<button class="footerBack">
+				<span>返回</span>
+			</button>
+			</a>
+			<a href="orderPay.html">
+				<button class="sureOrder">
+				<span>确认订单</span>
+			</button>
+			</a>
+			<script src="js/submit.js" type="text/javascript" charset="UTF-8"></script>
+			<script src="js/mui.min.js" type="text/javascript" charset="UTF-8"></script>
+			<script src="js/mui.picker.js" type="text/javascript" charset="UTF-8"></script>
+			<script src="js/mui.poppicker.js" type="text/javascript" charset="UTF-8"></script>
+			<script src="js/city.data.js" type="text/javascript" charset="UTF-8"></script>
+			<script src="js/city.data-3.js" type="text/javascript" charset="UTF-8"></script>
+			<script>
+				(function($, doc) {
+					$.init();
+					$.ready(function() {
+
+						var _getParam = function(obj, param) {
+							return obj[param] || '';
+						};
+
+						var cityPicker3 = new $.PopPicker({
+							layer: 3
+						});
+						cityPicker3.setData(cityData3);
+						var showCityPickerButton = doc.getElementById('showCityPicker3');
+						var cityResult3 = doc.getElementById('cityResult3');
+
+						showCityPickerButton.addEventListener('tap', function(event) {
+							cityPicker3.show(function(items) {
+
+								console.log(items[0].text);
+								cityResult3.value = _getParam(items[0], 'text') + _getParam(items[1], 'text') + _getParam(items[2], 'text');
+								//返回 false 可以阻止选择框的关闭
+								//return false;
+								//							cityResult3.innerText = items[0].text + items[1].text + items[2].text;
+
+							});
+						}, false);
+					});
+				})(mui, document);
+			
+				
+			</script>
+	</body>
+
+</html>

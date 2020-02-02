@@ -1,0 +1,139 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+	background: #FFFFFF;
+	color: #231f20;
+	/* font-size: 25px; */
+}
+
+.header {
+	height: 2rem;
+	background: #FD5A02;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.headerLeft {
+	width: 0.8rem;
+	height: 0.8rem;
+	position: absolute;
+	left: 0.4rem;
+	bottom: 0.6rem;
+	
+}
+
+.header span {
+	font-size: 0.75rem;
+	color: #FFFFFF;
+}
+.addressDetail{
+	padding: 0.2rem 0.3rem;
+	display: flex;
+	flex-direction: column;
+}
+.shouHuo{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-bottom: 0.4rem;
+	border-bottom: 0.04rem solid #f0f0f0;
+	margin-top: 0.3rem;
+}
+.shouHuoPerson{
+	font-size: 0.65rem;
+	font-weight: bold;
+}
+.nameInput{
+	color: #6b6b6b;
+	font-size: 0.65rem;
+	font-weight: bold;
+	outline: none;
+	margin-bottom: 0.1rem;
+	margin-left: 2.1rem;
+	width: 10.3rem;
+}
+.nameInput::-webkit-input-placeholder{
+	color: #6B6B6B;
+	font-size: 0.65rem;
+}
+.selectArea{
+	color: #6b6b6b;
+	font-size: 0.65rem;
+	font-weight: bold;
+	outline: none;
+	margin-bottom: 0.1rem;
+	margin-left: 1.5rem;
+	width: 10.3rem;
+}
+.menPaiInformation{
+	color: #6b6b6b;
+	font-size: 0.65rem;
+	font-weight: bold;
+	outline: none;
+	margin-bottom: 0.1rem;
+	margin-left: 1.5rem;
+	width: 10.3rem;
+}
+.moRenAddress{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	padding-left: 0.3rem;
+	padding-right: 0.3rem;
+	align-items: center;
+	margin-top: 0.5rem;
+	margin-bottom: 0.8rem;
+}
+.moRenCircle{
+	background: url(../img/images3/check.png) no-repeat center center;
+	background-size: 0.8rem 0.8rem;
+	width: 0.8rem;
+	height: 0.8rem;
+	margin-right: 0.3rem;
+	margin-bottom: 0.15rem;
+}
+.moRenCircleOpen{
+	background: url(../img/images3/checked.png) no-repeat center center;
+	background-size: 0.8rem 0.8rem;
+	width: 0.8rem;
+	height: 0.8rem;
+	margin-right: 0.3rem;
+	margin-bottom: 0.15rem;
+}
+.moRenAddress span{
+	font-size: 0.65rem;
+	font-weight: bold;
+}
+.save{
+	padding: 0.2rem 0.2rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+.save button{
+	width: 14.2rem;
+	height: 1.5rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	background: #FD5A02;
+	border: none;
+	border-radius: 0.16rem;
+	outline: none;
+	transition: none;
+	transition-duration: 0s;
+}
+.save button span{
+	color: #FFFFFF;
+	font-size: 0.65rem;
+	
+}

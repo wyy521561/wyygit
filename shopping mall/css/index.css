@@ -1,0 +1,429 @@
+body,html{
+	width: 100%;
+	height: 100%;
+	background: #eeedf4;
+	color: #231f20;
+	
+	/* font-size: 25px; */
+}
+.header{
+	width: 100%;
+	z-index: 999;
+	position: fixed !important; 
+	height: 2rem;
+	background: #fd5a02;
+	color: #FFFFFF;
+	padding: 0.24rem 0.4rem;
+	font-size: 0.65rem;
+	display:flex;
+	flex-direction: row;
+	box-sizing: border-box;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+	box-shadow: -4px 0px 4px rgba(0,0,0,0.5), 4px 0 4px rgba(0,0,0,0.5)
+	top:0;
+	
+}
+.main{
+	margin-top: 2rem;
+}
+.search{
+	width: 8rem;
+	height: 1.2rem;
+	border-radius: 0.6rem;
+	border: none;
+	outline: none;
+	position: relative;
+	padding-left: 1.3rem;
+}
+button{
+	position: absolute;
+	right: 7rem;
+	top: 0.5rem;
+	outline: none;
+	z-index: 2;
+	width: 1.6rem;
+	height: 1.6rem;
+	background: none;
+	border: none;
+	
+}
+button img{
+	width: 0.7rem;
+	height: 0.7rem;
+}
+input{
+	position: relative;
+}
+input::-webkit-input-placeholder{
+	/*text-align: center;*/
+	font-size: 0.6rem;
+	display: block;
+	margin-left: 4rem;
+	position: absolute;
+	
+}
+.banner{
+	width: 100%;
+	height: 9rem;
+}
+.swiper-slide img{
+	width: 100%;
+	height: 9rem;
+}
+.bannerList{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-top: 0.35rem;
+	padding-left:0.2rem ;
+	padding-right: 0.2rem;
+	padding-bottom: 0rem;
+	flex-wrap: wrap;
+	background: #FFFFFF;
+	margin-top: 0.3rem;
+	margin-bottom: 0.4rem;
+}
+.bannerList img{
+	width: 7rem;
+	height: 6rem;
+	margin-bottom: 0.3rem;
+	
+}
+.more{
+	height: 7rem;
+	display: flex;
+	flex-direction: column;
+	background: #FFFFFF;
+}
+.moreHeader{
+	height: 1.8rem;
+	display: flex;
+	flex-direction: row;
+	/*justify-content: center;*/
+	align-content: center;
+	align-items: center;
+	
+}
+.mark{
+	width: 0.2rem;
+	height: 1.2rem;
+	background: #FD5A02;
+}
+.moreHeader span{
+	font-size: 0.65rem;
+	font-weight: bolder;
+}
+.markMore{
+	margin-left: 8rem;
+}
+.hot{
+	margin-left: 0.45rem;
+}
+.moreListFirst{
+	font-size: 0.5rem;
+	color: #231F20;
+}
+.moreListSecond{
+	font-size: 0.5rem;
+	color: #e58380;
+	margin-top: 0.7rem;
+}
+.moreListUl{
+	display: flex;
+	flex-direction: row;
+	height: 6rem;
+	padding-left: 0.3rem;
+}
+.moreListLi{
+	display: flex;
+	flex-direction: column;
+	/*justify-content: space-around;*/
+	align-content: center;
+	
+}
+.moreListLi img{
+	width: 3rem;
+	height: 3rem;
+	margin-left: 0.3rem;
+}
+.line{
+	width: 0.06rem;
+	height: 5.6rem;
+	background: #f1f1f1;
+}
+.snacks{
+	
+	display: flex;
+	flex-direction: column;
+	background: #FFFFFF;
+	margin-top: 0.4rem;
+}
+.snacksHeader{
+	height: 1.6rem;
+	display: flex;
+	flex-direction: row;
+	/*justify-content: center;*/
+	align-content: center;
+	align-items: center;
+}
+.snacksDrink{
+	font-size: 0.65rem;
+	font-weight: bolder;
+	color: #FD5A02;
+	margin-left: 0.45rem;
+}
+.snacksHeader span{
+	font-size: 0.65rem;
+	font-weight: bolder;
+}
+.snacksMore{
+	margin-left: 9.3rem;
+}
+.snacksBanner{
+	height: 8rem;
+}
+.snacksBanner img{
+	width: 100%;
+	height: 8rem;
+}
+.snacksDetail{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-content: center;
+	padding-top: 0.4rem;
+	padding-bottom: 0.4rem;
+	background: #FFFFFF;
+}
+.wine{
+	margin-left: 0.6rem;
+	
+}
+.wineDetail{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-content: center;
+	margin-top: 0.35rem;
+	
+}
+.wineDetail span{
+	font-size: 0.6rem;
+	
+}
+.go{
+	width: 2.2rem;
+	height: 0.7rem;
+}
+.wineOx{
+	height: 7rem;
+
+}
+.whiteWine{
+	font-size: 1rem;
+	font-weight: bolder;
+	margin-bottom: 0.3rem;
+}
+.iceWine{
+	font-weight: bolder;
+	color: #e92b32;
+	margin-bottom: 0.3rem;
+	
+}
+.wineRight{
+	margin-left: 0.4rem;
+	width: 0.06rem;
+	height: 11rem;
+	background: #f1f1f1;
+}
+.tea{
+	
+    display: flex;
+    flex-direction: row;
+	margin-left: 0.6rem;
+	
+	
+}
+	
+.tea ul{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	z-index: 2;
+	margin-top: 0.35rem;
+	height: 5rem;
+}
+.juTea{
+	font-size: 0.6rem;
+	font-weight: bolder;
+	margin-bottom: 0.3rem;
+}
+.shenQi{
+	font-weight: bolder;
+	color: #e92b32;
+	margin-bottom: 0.3rem;
+}
+.go img{
+	width:2.2rem;
+	height: 0.7rem;
+}
+.ju{
+	width: 2.6rem;
+	height: 5.4rem;
+	background: none;
+	margin-left: 0.5rem;
+}
+.shenQi{
+	font-size: 0.6rem;
+}
+.juLine{
+	width: 9.2rem;
+	height: 0.06rem;
+	background: #f1f1f1;
+}
+.snacksRight{
+	display: flex;
+	flex-direction: column;
+	
+}
+.mi{
+	display: flex;
+    flex-direction: row;
+	margin-left: 0.6rem;
+}
+.mi ul{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	z-index: 2;
+	margin-top: 0.35rem;
+	height: 5rem;
+}
+.xueMi{
+	font-size: 0.6rem;
+	font-weight: bolder;
+	margin-bottom: 0.3rem;
+}
+.ziRanMi{
+	font-weight: bolder;
+	color: #e92b32;
+	margin-bottom: 0.3rem;
+	font-size: 0.6rem;
+}
+.miDetail{
+	margin-top: 0.3rem;
+	width: 2.6rem;
+	height: 4.8rem;
+	background: none;
+	margin-left: 1rem;
+}
+.snacksFood{
+	height: 7rem;
+	display: flex;
+	flex-direction: row;
+    background: #FFFFFF;
+}
+.snacksFood img{
+	position: relative;
+	width: 7.4rem;
+	height: 7rem;
+}
+.snacksFoodFirst{
+	
+	height: 7rem;
+}
+.snacksFoodSecond{
+	height: 7rem;
+}
+.luoSiFen{
+	position: absolute;
+	z-index: 2;
+	
+}
+.fenWords{
+	display: flex;
+	flex-direction: column;
+	margin-top: 0.5rem;
+	margin-left: 0.3rem;
+}
+.fenItems{
+	margin-top: 0.2rem;
+	margin-left: 0.3rem;
+	font-size: 0.6rem;
+	font-weight: bolder;
+}
+.fenItemsTwo{
+	margin-top: 0.3rem;
+	margin-left: 0.3rem;
+	font-size: 0.6rem;
+	font-weight: bolder;
+	color: #e92b32;
+}
+.main{
+	width: 100%;
+    z-index:6;
+	padding-bottom: 50px;
+	
+}
+.allGoods{
+	display: flex;
+	flex-direction: column;
+	color: #FFFFFF;
+}	
+.allGoodsHeader{
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	align-items: center;
+	padding: 0.3rem 0.5rem;
+	font-size: 0.7rem;
+	height: 2rem;
+}
+.allGoodsHeader img{
+	width: 1rem;
+	height: 1rem;
+}
+.allGoodsWords{
+	margin-left: 0.2rem;
+	top: 0.2rem;
+}
+.allGoodsList ul{
+	background: #bd5819;
+}
+.allGoodsList ul li{
+	display: flex;
+	flex-direction: row;
+	padding: 0.4rem 0.3rem 0.4rem 0.5rem;
+	height: 1.8rem;
+	border-bottom: 0.04px solid #e0a17e;
+	position: relative;
+}
+.dayu{
+  position: absolute;
+  right: 1rem;
+}
+.dayu img{
+	margin-top: 0.1rem;
+}
+.allGoodsHeader a{
+	color: #FFFFFF;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	align-items: flex-end;
+}
+.allGoodsList ul li a{
+	color: #FFFFFF;
+}
+.mui-bar{
+	background-color: #FFFFFF;
+}
+.mui-bar-tab{
+	border-top: 0.04rem solid #F1F1F1;
+}
+.other{
+	display: contents;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>泰公惠职公商城</title>
+		<meta name="viewport" content="width=device-width,initial-scale-1.0,maximum-scale=1.0,user-scalable=0" />
+		<meta name="keywords" content="泰公惠职公商城">
+		<meta name="description" content="泰公惠职公商城" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="Cache-Control" content="no-cache,must-revalidate" />
+		<meta http-equiv="expires" content="0" />
+		<link href="css/reset.css" type="text/css" rel="stylesheet" />
+		<link href="css/myawards.css" type="text/css" rel="stylesheet" />
+		<link href="css/mui.min.css" type="text/css" rel="stylesheet" />
+		<link href="css/myawards2.css" type="text/css" rel="stylesheet" />
+		<script src="js/font.js" type="text/javascript" charset="UTF-8"></script>
+	
+	</head>
+
+	<body>
+		<div class="header" id="header">
+			<a href="center.html">
+				<img class="headerLeft" src="img/images3/zuojiantou.png" />
+			</a>
+			<span class="headerWords">我的优惠券</span>
+		</div>
+		<div class="mui-content">
+			<div id="slider" class="mui-slider">
+				<div id="sliderSegmentedControl" class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+					<a class="mui-control-item" href="#item1mobile">
+						可用优惠券(1)
+					</a>
+					<a class="mui-control-item" href="#item2mobile">
+						已过期优惠券(1)
+					</a>
+					
+				</div>
+				<div id="sliderProgressBar" class="mui-slider-progress-bar mui-col-xs-4"></div>
+				
+				<div class="mui-slider-group" id="test">
+					
+					<div id="item1mobile" class="mui-slider-item mui-control-content mui-active">
+						
+						<div id="scroll1" class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+								<div class="quan">
+
+									<img class="activeQuan" src="img/images3/couponbg.png" />
+									<span class="quanDigital">20</span>
+									<span class="yuan">元</span>
+									<span class="youHuiDigital">优惠券</span>
+									<span class="manjian">满100减20</span>
+									<span class="time">2016/05/03-05/20</span>
+								</div>
+								<div class="quan">
+
+									<img class="activeQuan" src="img/images3/couponbg.png" />
+									<span class="quanDigital">20</span>
+									<span class="yuan">元</span>
+									<span class="youHuiDigital">优惠券</span>
+									<span class="manjian">满100减20</span>
+									<span class="time">2016/05/03-05/20</span>
+								</div>
+								<div class="quan">
+
+									<img class="activeQuan" src="img/images3/couponbg.png" />
+									<span class="quanDigital">20</span>
+									<span class="yuan">元</span>
+									<span class="youHuiDigital">优惠券</span>
+									<span class="manjian">满100减20</span>
+									<span class="time">2016/05/03-05/20</span>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+					
+					<div id="item2mobile" class="mui-slider-item mui-control-content">
+						<div id="scroll2" class="mui-scroll-wrapper">
+							<div class="mui-scroll">
+								<div class="mui-loading">
+									<div class="mui-spinner">
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					
+				</div>
+			</div>
+			<script src="js/mui.min.js" type="text/javascript" charset="UTF-8"></script>
+			<script>
+				//获取到元素
+
+				var header = document.getElementById("header");
+
+				//获取此元素的高度
+				var headerHeight = header.offsetHeight; //高度
+
+
+				var groupHeight = document.body.clientHeight - headerHeight - 40;
+				console.log(groupHeight)
+
+				var group = document.getElementById('test');
+
+				group.style.height = groupHeight + 'px';
+				//移动端适配
+				
+				mui.init({
+					swipeBack: false
+				});
+				(function($) {
+					$('.mui-scroll-wrapper').scroll({
+						indicators: true //是否显示滚动条
+					});
+					var html2 = '<div class="quanRight"><img class="activeQuanRight" src="img/images3/couponbgx.png"/><span class="quanDigitalRight">20</span><span class="yuanRight">元</span><span class="youHuiDigitalRight">优惠券</span><span class="manjianRight">满100减20</span><span class="timeRight">2016/05/03-05/20</span></div><div class="quanRight"><img class="activeQuanRight" src="img/images3/couponbgx.png"/><span class="quanDigitalRight">20</span><span class="yuanRight">元</span><span class="youHuiDigitalRight">优惠券</span><span class="manjianRight">满100减20</span><span class="timeRight">2016/05/03-05/20</span></div><div class="quanRight"><img class="activeQuanRight" src="img/images3/couponbgx.png"/><span class="quanDigitalRight">20</span><span class="yuanRight">元</span><span class="youHuiDigitalRight">优惠券</span><span class="manjianRight">满100减20</span><span class="timeRight">2016/05/03-05/20</span></div> ';
+				
+				var item2 = document.getElementById('item2mobile');
+				
+					document.getElementById('slider').addEventListener('slide', function(e) {
+						if(e.detail.slideNumber === 1) {
+							if(item2.querySelector('.mui-loading')) {
+								setTimeout(function() {
+									item2.querySelector('.mui-scroll').innerHTML = html2;
+								}, 500);
+							}
+						} 
+					});
+					var sliderSegmentedControl = document.getElementById('sliderSegmentedControl');
+					
+					$('.mui-input-group').on('change', 'input', function() {
+						if(this.checked) {
+							sliderSegmentedControl.className = 'mui-slider-indicator mui-segmented-control mui-segmented-control-inverted mui-segmented-control-' + this.value;
+							//force repaint
+							sliderProgressBar.setAttribute('style', sliderProgressBar.getAttribute('style'));
+						}
+					});
+				})(mui);
+			</script>
+
+	</body>
+
+</html>

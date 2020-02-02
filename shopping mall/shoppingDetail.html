@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>泰公惠职公商城</title>
+		<meta name="viewport" content="width=device-width,initial-scale-1.0,maximum-scale=1.0,user-scalable=0" />
+		<meta name="keywords" content="泰公惠职公商城">
+		<meta name="description" content="泰公惠职公商城" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="Cache-Control" content="no-cache,must-revalidate" />
+		<meta http-equiv="expires" content="0" />
+		<link href="css/reset.css" type="text/css" rel="stylesheet" />
+		<link href="css/swiper.min.css" type="text/css" rel="stylesheet" />
+		<link href="css/shoppingDetail.css" type="text/css" rel="stylesheet" />
+		<link href="css/mui.min.css" type="text/css" rel="stylesheet" />
+		<script src="js/jquery.min.js" type="text/javascript" charset="UTF-8"></script>
+		<script src="js/swiper.min.js" type="text/javascript" charset="UTF-8"></script>
+		<script src="js/font.js" type="text/javascript" charset="UTF-8"></script>
+		<script src="js/mui.min.js" type="text/javascript" charset="UTF-8"></script>
+
+	</head>
+
+	<body>
+		<div class="main">
+			<div class="header">
+				<a href="index.html">
+					<img class="headerLeft" src="img/images3/zuojiantou.png" />
+				</a>
+				<span class="title">泰公惠职工商城</span>
+				<a href="shoppingCart.html">
+				<img class="headerGouwu" src="img/images3/gouwuche.png" />
+				</a>
+				<img class="headerLianjie" src="img/images3/lianjie.png" />
+			</div>
+			<div class="banner">
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img src="img/images3/cp1.jpg" />
+						</div>
+						<div class="swiper-slide">
+							<img src="img/images3/cp1.jpg" />
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
+			<div class="line"></div>
+			<div class="bannerDetail">
+				<ul class="beef">
+					<li>
+						<span class="beefTitle">欧洲进口牛排</span>
+					</li>
+					<li class="beefSecond">
+						<span class="beefPrice">售价：¥198.00</span>
+						<span class="VipPrice">会员价：¥178.00</span>
+					</li>
+				</ul>
+				<ul class="Introduction">
+					<span>简介：壶三杯花间堂酒店款壶三杯花间堂酒店款一壶三杯花间堂酒店款壶三杯花间堂酒店款</span>
+					<li class="collect">
+						<div class="star"></div>
+						<span class="starWords">收藏</span>
+					</li>
+				</ul>
+			</div>
+			<div class="detailTitle">
+				<span>商品详情</span>
+			</div>
+			<div class="goodsDetail">
+				<ul>
+					<li>
+						<span>货号：H001590</span>
+						<span>尺寸：中国</span>
+						<span>件数：4</span>
+						<span>材质：白瓷</span>
+						<span>品牌地：中国</span>
+					</li>
+				</ul>
+			</div>
+			<div class="buy_modal" style="display: none;">
+				<div class="buy_bg" style="display: block;"></div>
+				<div class="buyDetail" style="display: block;">
+					<div class="buyDetailFirst">
+						<ul>
+							<li class="price">
+								<span class="priceFirst">价格</span>
+								<span class="priceDigital">¥178.00</span>
+							</li>
+							<li class="size">
+								<span>规格</span>
+								<span id="oneSuit" class="oneSuit oneSuitBorder">一套</span>
+							</li>
+						</ul>
+					</div>
+					<div class="much">
+						<span>数量</span>
+						<div class="mui-numbox">
+							<button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
+							<input class="mui-input-numbox" type="number" />
+							<button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
+						</div>
+					</div>
+                    <a href="submit.html">
+					<button class="liJi">
+	   	    	      	<span>立即购买</span>
+	   	    	        </button>
+	   	    	        </a>
+				</div>
+			</div>
+
+			<div class="detailFooter">
+				<a href="index.html">
+				<button class="backZhuye">
+				<img src="img/images3/zhuye1.png"/>
+			    </button>
+			    </a>
+				<button class="footerGouwu">
+		         <span>加入购物车</span>
+			</button>
+				<button id="buyQuick" class="nowBuy">
+				<span>立即购买</span>
+			</button>
+			</div>
+		</div>
+		<script src="js/shoppingDetail.js" type="text/javascript" charset="UTF-8"></script>
+		<script>
+			var mySwiper = new Swiper('.swiper-container', {
+				pagination: {
+					el: '.swiper-pagination',
+
+				},
+				autoplay: true,
+				loop: true,
+			})
+			mui.init();
+			document.getElementById("btn").addEventListener('tap', function(event) {
+				mui.alert('当前值: ' + document.getElementById("box").value, null, "提示");
+			});
+			var testBox = document.getElementById("test");
+			testBox.addEventListener('change', function() {
+				console.log(testBox.value);
+			});
+		</script>
+	</body>
+
+</html>

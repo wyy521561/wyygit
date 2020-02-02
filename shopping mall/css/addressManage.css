@@ -1,0 +1,135 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+	background: #FFFFFF;
+	color: #231f20;
+	/* font-size: 25px; */
+}
+
+.header {
+	height: 2rem;
+	background: #FD5A02;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.headerLeft {
+	width: 0.8rem;
+	height: 0.8rem;
+	position: absolute;
+	left: 0.4rem;
+	bottom: 0.6rem;
+	
+}
+
+.header span {
+	font-size: 0.75rem;
+	color: #FFFFFF;
+}
+.addressDetail{
+	padding-top: 0.8rem;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	display: flex;
+	flex-direction: column;
+	border-bottom: 0.05rem solid #eaeaea;
+}
+.detailFirst{
+	font-size: 0.7rem;
+	font-weight: bold;
+	color: #5B5B5B;
+	margin-bottom: 0.6rem;
+}
+.detailSecond{
+	font-size: 0.6rem;
+	font-weight: bold;
+	color: #5B5B5B;
+	margin-bottom: 0.5rem;
+}
+.addressManage{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 1.5rem;
+	border-bottom: 0.4rem solid #eaeaea;
+}
+.addressCircle{
+	background: url(../img/images3/check.png) no-repeat center center;
+	background-size: 0.8rem  0.8rem;
+	width: 0.8rem;
+	height: 0.8rem;
+}
+.addressCircleOpen{
+	background: url(../img/images3/checked.png) no-repeat center center;
+	background-size: 0.8rem 0.8rem;
+	width: 0.8rem;
+	height: 0.8rem;
+}
+.addressManage span{
+	font-size: 0.6rem;
+    font-weight: bold;
+}
+.cancel{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-left: 0.7rem;
+}
+.delete{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-left: 6.8rem;
+}
+.delete img{
+	width: 0.8rem;
+	height: 0.8rem;
+}
+.delete span{
+	font-size: 0.6rem;
+	font-weight: bold;
+	color: #ee5e17;
+	margin-left: 0.2rem;
+}
+.cancelMoRen{
+	margin-left: 0.2rem;
+}
+.cancelMoRenOpen{
+	margin-left: 0.2rem;
+	color: #EE5E17;
+}
+.addAddress{
+	height: 1.8rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	padding-top: 0.4rem;
+}
+.addAddress a{
+	text-decoration: none;
+}
+.addBtn{
+	background: #FD5A02;
+	height: 1.5rem;
+	width: 13.5rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 0.2rem;
+    outline: none;
+}
+.addBtn span{
+	font-size: 0.7rem;
+	font-weight: bold;
+	color: #FFFFFF;
+}

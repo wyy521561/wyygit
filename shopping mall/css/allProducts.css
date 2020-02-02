@@ -1,0 +1,215 @@
+body,html{
+	width: 100%;
+	height: 100%;
+	background: #eeedf4;
+	color: #231f20;
+	
+	/* font-size: 25px; */
+}
+.header{
+	height: 2.3rem;
+	background: #FD5A02;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	position: relative;
+}
+.allGoods{
+	color: #FFFFFF;
+	font-size: 0.75rem;
+}
+.header img{
+	width: 1rem;
+	height: 1rem;
+	position: absolute;
+	left: 13.4rem;
+	
+}
+.main{
+    width: 100%;
+	padding-bottom: 67px;
+}
+.goodsDetail{
+	background: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	
+}
+.goodsFenlei{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	padding-bottom: 0.9rem;
+	
+}
+.fenLei{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	box-sizing: border-box;
+	margin-top: 0.9rem;
+}
+.fenLei li{
+	font-size: 0.65rem;
+	font-weight: bold;
+}
+.goodsMain{
+	position: relative;
+}
+.goodsHeader{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	box-sizing: border-box;
+	font-size: 0.75rem;
+	font-weight: bold;
+	height: 2rem;
+	
+}
+.goodsPrice{
+	display: flex;
+	width: 50%;
+	flex-direction: row;
+	height: 2rem;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+.goodsDiscount{
+	display: flex;
+	width: 50%;
+	flex-direction: row;
+	height: 2rem;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+.up{
+	width: 1.5rem;
+	height: 1.5rem;
+}
+.line{
+	width: 100%;
+	height: 2px;
+	background: #F1F1F1;
+}
+.milk{
+	display: flex;
+	flex-direction: column;
+	margin-top: 0.3rem;
+}
+.milkList{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: center;
+	box-sizing: border-box;
+	padding-left: 0.3rem;
+	padding-right: 0.3rem;
+}
+.milkList li{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.milkList li img{
+	width: 5.5rem;
+	height: 5.3rem;
+}
+.milkList li span{
+	font-size: 0.6rem;
+}
+.currentPrice{
+	display: flex;
+	flex-direction: row;
+}
+.digital{
+	color: #d3b097;
+}
+.originalPrice{
+	text-decoration: line-through;
+	color: #e5e5e5;
+}
+.priceDetail{
+	background: #FFFFFF;
+	width: 100%;
+	z-index: auto;
+	position: absolute;
+	top: 8.5rem;
+	
+}
+.discountDetail{
+	background: #FFFFFF;
+	width: 100%;
+	z-index: auto;
+	position: absolute;
+	top: 8.5rem;
+}
+.priceDetail ul{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-content: center;
+	padding-left: 1.5rem;
+	z-index: 3;
+	font-size: 0.6rem;
+	font-weight: bold;
+	color: #8c8b90;
+}
+.discountDetail ul{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-content: center;
+	padding-left: 1.5rem;
+	z-index: 3;
+	font-size: 0.6rem;
+	font-weight: bold;
+	color: #8c8b90;
+}
+
+.milkOpenList{
+	display: flex;
+	flex-direction: column;
+	padding: 0.6rem 1rem;
+	justify-content: center;
+
+}
+.milkOpenList img{
+	width: 100%;
+	height: 10rem;
+}
+.milkOpenWords{
+	margin-top: 0.4rem;
+	font-size: 0.6rem;
+}
+.nowMark{
+	color: #BDBCBF;
+	font-size: 0.6rem;
+}
+.nowPrice{
+	display: flex;
+	flex-direction: row;
+	font-size: 0.6rem; 
+}
+.priceDigital{
+	color: #C1875E;
+}
+.pastPrice{
+	color: #c5c5c5;
+	font-size: 0.6rem;
+	text-decoration: line-through;
+	margin-left: 0.2rem;
+}
+.milkOpen ul{
+	margin-top: 0.3rem;
+	display: flex;
+	flex-direction: row;
+}

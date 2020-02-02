@@ -1,0 +1,149 @@
+body,html{
+	width: 100%;
+	height: 100%;
+	background: #FFFFFF;
+	color: #231F20;
+}
+.header{
+	background: #FD5A02;
+	
+	height: 2rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	position: relative;
+}
+.headerLeft{
+	position: absolute;
+	left: 0.5rem;
+	top: 0.6rem;
+	width: 0.8rem;
+	height: 0.8rem;
+}
+.headerWords{
+	font-size: 0.7rem;
+	/*font-weight: bold;*/
+	color: #FFFFFF;
+}
+.zhuYe{
+	position: absolute;
+	left: 13.6rem;
+	width: 0.9rem;
+	height: 1rem;
+	bottom: 0.46rem;
+}
+.productsDetail{
+	height: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #EEEDF4;
+}
+.productsDetail span{
+	font-size: 0.65rem;
+	font-weight: bold;
+	margin-left: 0.6rem;
+}
+.goodsDetail{
+	display: flex;
+	flex-direction: row;
+	padding: 0.5rem 0.6rem;
+	border-bottom: 1px solid #EEEDF4;
+}
+.goodsDetail img{
+	width: 4rem;
+	height: 4rem;
+
+}
+.goodsDetail ul{
+	display: flex;
+	flex-direction: column;
+	margin-left: 0.9rem;
+
+	
+}
+.productsIntroduction{
+	font-size: 0.55rem;
+}
+.goodsDetail ul li{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 0.3rem;
+}
+.price{
+	font-size: 0.65rem;
+	color: #bbbbbb;
+}
+.priceDigital{
+	font-size: 0.65rem;
+	color: #de4a3c;
+}
+.account{
+	font-size: 0.65rem;
+	color: #bbbbbb;
+}
+.accountDigital{
+	font-size: 0.65rem;
+}
+.orderDetail{
+	display: flex;
+	flex-direction: row;
+	padding: 0.3rem 0.6rem;
+}
+.orderDetailLeft  li{
+	display: flex;
+	flex-direction: row;
+	color: #a0a0a2;
+	font-size: 0.5rem;
+	margin-bottom: 0.3rem;
+}
+.orderInformation{
+	color: #DE4A3C;
+	font-size: 0.5rem;
+}
+.orderDetailRight{
+	display: flex;
+	flex-direction: column;
+	margin-left: 1.3rem;
+}
+.orderDetailRight li{
+	margin-bottom: 0.3rem;
+}
+.orderInfor{
+	color: #a0a0a2;
+	font-size: 0.5rem;
+}
+.orderSuccess{
+	display: flex;
+	flex-direction: column;
+	padding: 0.1rem 0.6rem;
+}
+.orderSuccess span{
+	font-size: 0.5rem;
+	color: #DE4A3C;
+	line-height: 0.8rem;
+}
+.rego{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	height: 1.5rem;
+	padding: 0.3rem 0.6rem;
+}
+.rego button{
+	width: 6rem;
+	height: 1.5rem;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	background: #FD5A02;
+	color: #FFFFFF;
+	font-size: 0.6rem;
+	margin-right: 0.5rem;
+	border-radius: 0.2rem;
+	outline: none;
+	border: none;
+}

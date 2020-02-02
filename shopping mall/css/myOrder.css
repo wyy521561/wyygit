@@ -1,0 +1,235 @@
+body,html{
+	width: 100%;
+	height: 100%;
+	background: #EEEDF4;
+	color: #231F20;
+}
+.header{
+	height: 2rem;
+	background: #FD5A02;
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.headerWords{
+	color: #FFFFFF;
+	font-size: 0.75rem;
+}
+.headerLeft{
+	position: absolute;
+	left: 0.5rem;
+	width: 0.8rem;
+	height: 0.8rem;
+	bottom: 0.6rem;
+}
+.mui-scroll-wrapper {
+	padding: 0;
+}
+.mui-slider-progress-bar{
+	height: 0.02rem;
+}
+.zhuye{
+	position: absolute;
+	width: 1rem;
+	height: 1rem;
+	right: 0.5rem;
+	bottom:0.45rem
+}
+.mui-col-xs-4{
+	width: 20%;
+}
+.repayHeader{
+	height: 2rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+	padding: 0.4rem 0.3rem;
+	border-bottom: 0.06rem solid #F0F0EC;
+}
+.repayHeaderBianhao{
+	font-size: 0.6rem;
+	font-weight: 400;
+}
+.repayHeaderWords{
+	color: #FD5A02;
+	font-size: 0.6rem;
+	font-weight: bold;
+}
+.repayDetail{
+	display: flex;
+	flex-direction: row;
+
+	align-content: center;
+	align-items: center;
+	border-bottom: 0.06rem solid #F0F0EC;
+	padding: 0.5rem 0.4rem;
+	position: relative;
+}
+
+
+.mui-control-content {
+	background-color: white;
+	min-height: 215px;
+}
+
+.mui-control-content .mui-loading {
+	margin-top: 50px;
+}
+
+
+/*.mui-slider-progress-bar {
+				margin-left: 1.2rem;
+			}*/
+
+
+.mui-slider-indicator {
+	background: #FFFFFF;
+}
+
+.mui-segmented-control.mui-segmented-control-inverted~.mui-slider-progress-bar {
+	background-color: #FD5A02;
+}
+
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active {
+	color: #FD5A02;
+}
+
+
+/*.mui-slider-progress-bar{
+				transform: translate3d(-55px, 0px ,0px) translateZ(0px) ;
+			}*/
+
+
+.mui-slider .mui-slider-group .mui-slider-item{
+	
+}
+.mui-segmented-control{
+	font-size: 0.65rem;
+}
+.mui-col-xs-4{
+	width: 20%;
+}
+.cups{
+	width: 4rem;
+	height: 4rem;
+}
+.mui-slider .mui-slider-group .mui-slider-item img{
+	width: initial;
+}
+.repayDetail ul{
+    display: flex;
+    flex-direction: column;	
+    align-content: center;
+    width: 8.2rem;
+}
+.repayDetail ul li{
+	margin-bottom: 0.3rem;
+	font-size: 0.55rem;
+	margin-left: 0.5rem;
+}
+.xingHao{
+	color: #c3c0c3;
+}
+.guiGe{
+	color: #c3c0c3;;
+}
+.cupName{
+	color: #231F20;
+}
+.cupIntroduction{
+	position: absolute;
+	left: 4.5rem;
+}
+.priceDetail{
+	position: absolute;
+	top: 0.5rem;
+	left: 12.5rem;
+	margin-bottom: 1.5rem;
+	justify-content: flex-end;
+}
+.price{
+	color: #FD5A02;
+}
+.shuliang{
+	margin-top: 1.5rem;
+	position: absolute;
+	left: 1.1rem;
+	color: #c3c0c3;
+}
+.repayFooter{
+	height: 2rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	position: relative;
+}
+.repayWords{
+	font-size: 0.55rem;
+	color: #808080;
+	margin-left: 0.3rem;
+}
+.money{
+	margin-left: 0.1rem;
+	font-size: 0.6rem;
+	color: #FD5A02;
+}
+.cancel{
+	border: 0.05rem  solid #C3C0C3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #FFFFFF;
+	width: 3.6rem;
+	font-size: 0.55rem;
+	margin-left: 1.1rem;
+	color: #231F20;
+}
+.goPay{
+	width: 3.6rem;
+	border: none;
+	background: #FD5A02;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    font-size: 0.55rem;
+    margin-left: 0.2rem;
+}
+.orderLine{
+	height: 0.4rem;
+	background: #f0f0ec;
+}
+.dinDanXiangQing{
+	border: 0.05rem  solid #C3C0C3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #FFFFFF;
+	width: 3.6rem;
+	font-size: 0.55rem;
+	margin-left: 1.75rem;
+	color: #231F20;
+}
+.tuiKuan{
+	width: 3.6rem;
+	border: none;
+	background: #FD5A02;
+	color: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    font-size: 0.55rem;
+    margin-left: 0.2rem;
+}
+.priceTwo{
+	color: #FD5A02;
+	margin-top: 0.43rem;
+}
+.footerLine{
+	height: 0.06rem ;
+	background: #F0F0EC;
+}

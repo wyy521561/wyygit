@@ -1,0 +1,134 @@
+.mui-control-content {
+	background-color: white;
+	min-height: 215px;
+}
+
+.mui-control-content .mui-loading {
+	margin-top: 50px;
+}
+
+
+/*.mui-slider-progress-bar {
+				margin-left: 1.2rem;
+			}*/
+
+
+.mui-slider-indicator {
+	background: #FFFFFF;
+}
+
+.mui-segmented-control.mui-segmented-control-inverted~.mui-slider-progress-bar {
+	background-color: #FD5A02;
+}
+
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active {
+	color: #FD5A02;
+}
+
+
+/*.mui-slider-progress-bar{
+				transform: translate3d(-55px, 0px ,0px) translateZ(0px) ;
+			}*/
+
+
+.mui-slider .mui-slider-group .mui-slider-item img{
+	width: 13rem;
+	height: 6.5rem;
+	
+}
+.quan{
+	position: relative;
+	margin-bottom: 1rem;
+}
+.quanDigital{
+	position: absolute;
+	font-size: 2rem;
+	color: #e53d3b;
+	top: 2rem;
+	left: 1rem;
+}
+.yuan{
+	position: absolute;
+	font-size: 0.65rem;
+	color: #E53D3B;
+	top: 2.45rem;
+	left: 3.3rem;
+	font-weight: bold;
+	
+}
+.youHuiDigital{
+	position: absolute;
+	font-size: 0.7rem;
+	
+	color: #E53D3B;
+	top: 1.4rem;
+	left: 8.2rem;
+}
+.manjian{
+	position: absolute;
+	font-size: 0.7rem;
+	color: #E53D3B;
+	top: 3.6rem;
+	left: 7.7rem;
+}
+.time{
+	position: absolute;
+	font-size: 0.7rem;
+	color: #E53D3B;
+	top: 5.4rem;
+	left: 6rem;
+}
+.quanRight{
+	position: relative;
+	margin-bottom: 1rem;
+}
+.quanDigitalRight{
+	position: absolute;
+	font-size: 2rem;
+	color: #EEEDF4;
+	top: 2rem;
+	left: 1rem;
+}
+.yuanRight{
+	position: absolute;
+	font-size: 0.65rem;
+	color: #EEEDF4;
+	top: 2.45rem;
+	left: 3.3rem;
+	font-weight: bold;
+	
+}
+.youHuiDigitalRight{
+	position: absolute;
+	font-size: 0.7rem;
+	
+	color: #EEEDF4;
+	top: 1.4rem;
+	left: 8.2rem;
+}
+.manjianRight{
+	position: absolute;
+	font-size: 0.7rem;
+	color: #EEEDF4;
+	top: 3.6rem;
+	left: 7.7rem;
+}
+.timeRight{
+	position: absolute;
+	font-size: 0.7rem;
+	color: #EEEDF4;
+	top: 5.4rem;
+	left: 6rem;
+}
+.mui-scroll-wrapper{
+	padding: 1rem 1rem;
+}
+.mui-slider .mui-slider-group .mui-slider-item{
+	
+}
+.mui-segmented-control{
+	font-size: 0.65rem;
+}
+.mui-col-xs-4{
+	width: 50%;
+}

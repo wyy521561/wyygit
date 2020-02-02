@@ -1,0 +1,254 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+	background: #FFFFFF;
+	color: #231f20;
+	/* font-size: 25px; */
+}
+
+.header {
+	height: 2rem;
+	background: #FD5A02;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.headerLeft {
+	width: 0.8rem;
+	height: 0.8rem;
+	position: absolute;
+	left: 0.4rem;
+	bottom: 0.6rem;
+	
+}
+
+.header span {
+	font-size: 0.75rem;
+	color: #FFFFFF;
+}
+.order{
+	display: flex;
+	flex-direction: column;
+	border-bottom: 0.04rem solid #EEEDF4;
+}
+.orderBianHao{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding:0.5rem 0.3rem;
+}
+.orderBianHao span{
+	font-size: 0.65rem;
+	font-weight: 500;
+	color: #909090;
+}
+.goods{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0.4rem 0.6rem;
+	border-bottom: 0.04rem solid #EEEDF4;
+}
+.goods img{
+	width: 3rem;
+	height: 3rem;
+	margin-left: 1rem;
+}
+.goods ul{
+	display: flex;
+	flex-direction: column;
+	margin-left: 1.5rem;
+}
+.goods ul li{
+	font-size: 0.6rem;
+	margin-bottom: 0.3rem;
+}
+.tomic{
+	font-weight: 600;
+}
+.guiGe{
+	color: #c6c6c6;
+}
+.much{
+	color: #C6C6C6;
+}
+.money{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0.2rem 0.3rem;
+	
+}
+.exchangeMoney{
+	font-size: 0.6rem;
+	font-weight: 600;
+}
+.zero{
+	font-size: 0.6rem;
+	font-weight: 600;
+	color: #FD5A02;
+}
+.backMoney{
+	font-size: 0.6rem;
+	font-weight: 600;
+	margin-left: 0.7rem;
+}
+.wuLiu{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+    border: none;
+    border-radius: 0.2rem;
+    outline: none;
+    background: #FD5A02;
+    width: 3rem;
+    height: 1.4rem;
+    margin-left: 1.46rem;
+}
+.wuLiu span{
+	color: #FFFFFF;
+	font-size: 0.6rem;
+	font-weight: 600;
+}
+.wuLiu_modal{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	
+}
+.wuLiu_bg{
+	background: #000000;
+	opacity: 0.4;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	transition: 0.5s;
+	
+}
+.wuLiuDetail{
+	position: fixed;
+	z-index: 999;
+	background: #FFFFFF;
+	width: 92%;
+	height: 12rem;
+	left: 4%;
+	top: 6rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.wuLiuHeader{
+	background: #2d2d2d;
+	height: 1.8rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+    align-items: center;
+}
+.wuLiuHeader span{
+	font-size: 0.65rem;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.wuLiuCompany{
+	padding-left: 0.3rem;
+	margin-top: 0.6rem;
+	margin-bottom: 0.3rem;
+}
+.wuLiuCompany span{
+	font-size: 0.65rem;
+	font-weight: 600;
+}
+.companyInput{
+	border: 0.06rem solid #DDDDDD;
+	border-radius: 0.2rem;
+	width: 13rem;
+	height: 1.5rem;
+	margin-left: 0.3rem;
+	outline: none;
+	color: #231F20;
+	font-size: 0.6rem;
+	font-weight: bold;
+}
+
+
+
+
+
+.wuLiuDanHao{
+	padding-left: 0.3rem;
+	margin-top: 0.6rem;
+	margin-bottom: 0.3rem;
+}
+.wuLiuDanHao span{
+	font-size: 0.65rem;
+	font-weight: 600;
+}
+.submitBtn{
+	height: 1.8rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	margin-top: 0.8rem;
+}
+.submit{
+	width: 3rem;
+	height: 1.5rem;
+	background: #2D2D2D;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	border: none;
+	border-radius: 0.2rem;
+	outline: none;
+}
+.submit span{
+	color: #FFFFFF;
+	font-size: 0.6rem;
+
+}
+.mark{
+	height: 2rem;
+	padding: 0.2rem 0.3rem;
+	border-bottom: 0.4rem solid #F0F0EC;
+}
+.mark span{
+	color: #C6C6C6;
+    font-size: 0.6rem;
+    
+}
+.moneySecond{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0.2rem 0.3rem;
+	border-bottom: 0.4rem solid #F0F0EC;
+	height: 1.3rem;
+}
+.moneyThird{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0.2rem 0.3rem;
+	border-bottom: 0.04rem solid #F0F0EC;
+	margin-bottom: 5rem;
+	height: 1.3rem;
+}

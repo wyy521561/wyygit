@@ -1,0 +1,10 @@
+$(".wuLiu").click(function(){
+	$(".wuLiu_modal").show();
+	$(".wuLiu_bg").show();
+	$(".wuLiuDetail").show();
+})
+$(".submit").click(function(){
+	$(".wuLiu_modal").hide();
+	$(".wuLiu_bg").hide();
+	$(".wuLiuDetail").hide();
+})
