@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>填写订单</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="采购网，泉心泉意，一站式采购，采购平台，实验室采购">
+		<meta name="description" content="泉心泉意是一个提供生物材料，化学试剂及耗材等实验室国内外一站式采购供给平台。泉心泉意还提供生物制品进出口服务，品牌保证、泉心严选。">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<META HTTP-EQUIV="pragma" CONTENT="no-cache">
+		<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
+		<META HTTP-EQUIV="expires" CONTENT="0">
+		<link rel="shortcut icon" href="img/icon/favicon.ico" type="image/x-icon" />
+
+		<!--    {#    common   #}-->
+		<link rel="stylesheet" type="text/css" href="css/common/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/common/global.css" />
+		<script type="text/javascript" charset="utf-8" src="js/common/jquery-1.10.1.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/common/font.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/common/toggle.js"></script>
+
+		<!--    {#   alone    #}-->
+		<link rel="stylesheet" type="text/css" href="css/checkOrder.css" />
+		<script type="text/javascript" charset="utf-8" src="js/checkOrder.js"></script>
+
+	</head>
+
+	<body>
+
+		<div class="header logo">
+			<img src="img/logo.png" />
+		</div>
+
+		<div class="step_box">
+			<ul>
+				<li>我的购物车</li>
+				<li class="active">填写并核对订单</li>
+				<li>提交订单</li>
+			</ul>
+		</div>
+		<div class="content">
+
+			<div class="receive_box">
+
+				<div class="title_box">
+					<div class="title_box_left">
+						<img src="img/address.png" />
+						<span>收货人信息</span>
+					</div>
+
+				</div>
+
+				<div class="address_item">
+
+					<div class="check_li">
+						<span class="check_box" data-id={{ a.id }}></span>
+						<input style="display: none;" type="checkbox" name="" id="auto" value="" />
+					</div>
+
+					<div class="address_item_right">
+						<div class="tag">
+
+							<span class="address_tag">无备注</span>
+
+						</div>
+						<ul>
+							<li>
+								<span>收货人:</span>
+								<span id="">收货人</span>
+							</li>
+							<li>
+								<span>联系电话:</span>
+								<span>联系电话</span>
+							</li>
+							<li>
+								<span style="flex:1;">地址:</span>
+								<span style="flex: 5;">地址地址地址地址地址地址地址地址地址地址地址</span>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+
+				<div class="hide_box">
+					<button id="address_hide">点击收起</button>
+				</div>
+
+			</div>
+
+			<div class="invoice_box">
+
+				<div class="title_box">
+					<div class="title_box_left">
+						<img src="img/invoice.png" />
+						<span>发票信息</span>
+					</div>
+
+				</div>
+
+				<div class="invoice_item">
+					<div class="check_li">
+						<span class="check_box" data-id={{ v.id }}></span>
+						<input style="display: none;" type="checkbox" name="" id="auto" value="" />
+					</div>
+					<div class="invoice_item_right">
+						<ul>
+							<li>
+								<span style="flex:2;">发票抬头: </span>
+								<span style="flex: 5;">发票抬头</span>
+							</li>
+							<li>
+								<span>纳税人识别码: </span>
+								<span>纳税人识别码</span>
+							</li>
+							<li>
+								<span>开户银行: </span>
+								<span>开户银行</span>
+							</li>
+							<li>
+								<span>银行帐户: </span>
+								<span>银行帐户</span>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+
+				<div class="hide_box">
+					<button id="invoice_hide">点击收起</button>
+				</div>
+			</div>
+
+			<div class="check_product_box">
+				<div class="check_top">
+					<p>商品确认</p>
+					<span>订购后在货期内发货。若货期状态有意外变化，客服会与您确认货期。</span>
+				</div>
+
+				<div class="order_card_body body_typeThree" style="padding-bottom: 10px;">
+					<ul>
+
+						<li class="strip">
+							<div class="strip_header">
+								<span>产品名称: </span>
+								<span>产品名称</span>
+							</div>
+							<div class="strip_footer">
+								<div class="strip_footer_item">
+									<span>品牌:</span>
+									<span>品牌</span>
+								</div>
+								<div class="strip_footer_item">
+									<span>货号:</span>
+									<span>货号</span>
+								</div>
+								<div class="strip_footer_item">
+									<span>规格:</span>
+									<span>规格</span>
+								</div>
+								<div class="strip_footer_item">
+									<span>销售包装:</span>
+									<span></span>
+								</div>
+								<div class="strip_footer_item">
+									<span>泉心价:</span>
+									<span>123元</span>
+								</div>
+								<div class="strip_footer_item">
+									<span>数量:</span>
+									<span>322</span>
+								</div>
+								<div class="strip_footer_item">
+									<span>货期:</span>
+									<span>12</span>
+								</div>
+								<div class="strip_footer_item">
+									<span>总金额:</span>
+									<span class="tree_total">433元</span>
+								</div>
+							</div>
+						</li>
+
+					</ul>
+					<div class="strip_more">
+						<div class="strip_more_inner">
+							<span>本条订单共有12条记录 点击查看所有记录</span>
+							<img src="img/arrowMore.png" />
+						</div>
+					</div>
+
+					<div class="strip_more_hide">
+						<div class="strip_more_inner_hide">
+							<span>点击收缩</span>
+							<img src="img/arrowHide.png" />
+						</div>
+					</div>
+				</div>
+
+				<div class="remarks_box">
+					<span>备注:</span>
+					<textarea id='order_remark' placeholder="(不超过200字,可以不填写)"></textarea>
+				</div>
+			</div>
+
+			<div class="check_footer">
+
+				<span>订单总金额共计:<i class="theme_color">120元</i></span>
+				<div class="action_box">
+					<a class="action_btn">返回修改</a>
+					<a class="action_btn" href="submitOrder.html">确认提交</a>
+				</div>
+			</div>
+
+		</div>
+	</body>
+
+</html>

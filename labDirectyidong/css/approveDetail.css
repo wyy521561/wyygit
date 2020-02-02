@@ -1,0 +1,145 @@
+
+.check_product_box {
+    background: #fff;
+    padding-top: 1rem;
+    padding-bottom: 0.6rem;
+    margin-bottom: 0.4rem;
+
+}
+
+.check_top {
+    padding: 0 1rem;
+}
+
+.check_top p {
+    font-size: 0.6rem;
+    text-align: center;
+    margin: 0 0 0.8rem;
+}
+
+.check_top span {
+    font-size: 0.48rem;
+    color: #0009;
+    line-height: .7rem;
+    display: block;
+    margin: 0.8rem 0 1rem;
+}
+
+.order_card_body.body_typeThree .strip {
+    border-top: 1px dotted #e2e2e2;
+    margin-bottom: 0;
+}
+
+.order_card_body.body_typeThree .strip .strip_header {
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.order_card_body.body_typeThree .strip .strip_header span:first-child {
+    width: 20%;
+}
+
+.order_card_body.body_typeThree .strip .strip_header span:last-child {
+    width: 78%;
+    text-align: left;
+}
+
+.order_card_body.body_typeThree .strip .strip_footer .strip_footer_item {
+    color: #000;
+}
+
+.remarks_box {
+    /*padding: 0 1rem;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    /*margin-bottom: 0.8rem;*/
+}
+
+.remarks_box span {
+    font-size: 0.6rem;
+    margin-right: .4rem;
+}
+
+.remarks_box textarea {
+    flex: 1;
+    border: 1px solid #d5d5d5;
+    padding: 0.4rem;
+    min-height: 80px;
+    outline: none;
+    vertical-align: text-top;
+    border-radius: 3px;
+    resize: none;
+}
+
+.order_card_body .strip .strip_header.approve_footer {
+    padding: 0 0.84rem 0.7rem;
+}
+
+.approve_action_box {
+    padding: 0 0.44rem;
+    box-sizing: border-box;
+}
+
+.approve_action_box h1 {
+    font-size: 0.6rem;
+}
+
+.approve_action_box ul {
+    background: #fff;
+    padding: 0.8rem 0;
+    font-size: 0.6rem;
+
+}
+
+.approve_action_box li {
+    margin-bottom: 0.52rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.approve_action_box li:last-child {
+    margin-bottom: 0;
+}
+
+.approve_action_box li span:first-child {
+    font-weight: normal;
+    margin-right: 0.2rem;
+}
+
+.approve_action_box li span:last-child {
+    width: 60%;
+    /*font-weight: 300;*/
+}
+
+
+.check_li {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.check_box {
+    width: 1rem;
+    height: 1rem;
+    background: url(../img/check.png) no-repeat center center;
+    background-size: 1rem 1rem;
+    display: block;
+    /*margin-top: 0.2rem;*/
+}
+
+.check_box.checked {
+    width: 1rem;
+    height: 1rem;
+    background: url(../img/checked.png) no-repeat center center;
+    background-size: 1rem 1rem;
+}

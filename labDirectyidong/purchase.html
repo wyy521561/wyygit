@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Lab－Direct 我的求购单</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="采购网，泉心泉意，一站式采购，采购平台，实验室采购">
+    <meta name="description" content="泉心泉意是一个提供生物材料，化学试剂及耗材等实验室国内外一站式采购供给平台。泉心泉意还提供生物制品进出口服务，品牌保证、泉心严选。">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <META HTTP-EQUIV="pragma" CONTENT="no-cache">
+    <META HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
+    <META HTTP-EQUIV="expires" CONTENT="0">
+    <link rel="shortcut icon" href="img/icon/favicon.ico" type="image/x-icon"/>
+
+   <!-- {#    common   #}-->
+    <link rel="stylesheet" type="text/css" href="css/common/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="css/common/global.css"/>
+    <link rel="stylesheet" type="text/css" href="css/common/tab.css"/>
+    <script type="text/javascript" charset="utf-8" src="js/common/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" charset="utf-8"
+            src="js/common/idangerous.swiper.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/common/tab.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/common/font.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/common/toggle.js"></script>
+   <!-- {#   alone    #}-->
+    <link rel="stylesheet" type="text/css" href="css/order.css"/>
+
+</head>
+<body>
+
+<div class="header order">
+
+    <div class="header_order_left">
+        <img src="img/icon13.png"/>
+        <span>我的求购单</span>
+    </div>
+    <a class="header_order_right" href="/LabDirect/search/?order_type=2">
+        <img src="img/search.png"/>
+        <span>搜索</span>
+    </a>
+
+</div>
+
+<div class="tab_box">
+
+    <div class="tabs">
+        <a href="#" hidefocus="true" class="active">全部求购单</a>
+        <a href="#" hidefocus="true">已提交</a>
+        <a href="#" hidefocus="true">已转购物车</a>
+        <a href="#" hidefocus="true">已关闭</a>
+    </div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+             
+                        <div class="content-slide">
+                            <div class="order_card_box">
+
+                                <div class="order_card_header header_typeThree">
+                                    <div class="header_typeThree_left">
+                                        <span>求购单编号: </span>
+                                        <span>求购单编号</span>
+                                    </div>
+                                    <span class="theme_color">产品状态</span>
+                                </div>
+
+                                <div class="order_card_body body_typeThree">
+                                    <ul>
+                                      
+                                            <li class="strip">
+                                                <div class="strip_header">
+                                                    <span>产品名称:</span>
+                                                    <span>产品名称</span>
+                                                </div>
+                                                <div class="strip_footer">
+                                                    <div class="strip_footer_item">
+                                                        <span>货号:</span>
+                                                        <span>货号</span>
+                                                    </div>
+                                                    <div class="strip_footer_item">
+                                                        <span>单价:</span>
+                                                        <span>12元</span>
+                                                    </div>
+                                                    <div class="strip_footer_item">
+                                                        <span>规格:</span>
+                                                        <span>规格</span>
+                                                    </div>
+                                                    <div class="strip_footer_item">
+                                                        <span>销售包装:</span>
+                                                      
+                                                            <span>销售包装</span>
+                                                       
+                                                    </div>
+                                                    <div class="strip_footer_item">
+                                                        <span>数量:</span>
+                                                        <span>数量</span>
+                                                    </div>
+                                                    <div class="strip_footer_item">
+                                                        <span>金额:</span>
+                                                        <span class="theme_color">12</span>
+                                                    </div>
+                                                    <div class="strip_footer_item">
+                                                        <span>相关信息:</span>
+                                                       
+                                                            <span class="red_color">暂无</span>
+                                                      
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        
+                                    </ul>
+                                    <div class="strip_more">
+                                        <div class="strip_more_inner">
+                                            <span>本条订单共有2条记录 点击查看所有记录</span>
+                                            <img src="img/arrowMore.png"/>
+                                        </div>
+                                    </div>
+                                    <div class="strip_more_hide">
+                                        <div class="strip_more_inner_hide">
+                                            <span>点击收缩</span>
+                                            <img src="img/arrowHide.png"/>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="order_card_money">
+                                    <div class="money_left">
+                                        <span>下单时间: </span>
+                                        <span>下单时间</span>
+                                    </div>
+                                </div>
+
+                                <div class="order_card_footer footer_typeOne">
+                                   
+                                        <button class="order_confirm" data-id="{{ p.id }}">确认</button>
+                                        <button class="order_deny" data-id="{{ p.id }}">拒绝</button>
+                                    
+                                    <a class="footer_btn detail_btn"  href="orderDetail.html">查看详情</a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                 
+          
+               
+            </div>
+         <div class="swiper-slide">
+             
+                        <div class="content-slide">
+                            <div class="order_card_box">
+
+                                <div class="order_card_header header_typeThree">
+                                    <div class="header_typeThree_left">
+                                        <span>求购单编号: </span>
+                                        <span>求购单编号</span>
+                                    </div>
+                                    <span class="theme_color">产品状态</span>
+                                </div>
+
+                                <div class="order_card_body body_typeThree">
+                                    <ul>
+                                      
+                                            <li class="strip">
+                                                <div class="strip_header">
+                                                    <span>产品名称:</span>
+                                                    <span>产品名称</span>
+                                                </div>
+                                                <div class="strip_footer">
+                                                    <div class="strip_footer_item">
+                                                        <span>货号:</span>
+                                                        <span>货号</span>
+                                                    </div>
+                                                    <div class="strip_footer_item">
+                                                        <span>单价:</span>
+                                                        <span>12元</span>
+                                                    </div>
+                                                    <div class="strip_footer_item">
+                                                        <span>规格:</span>
+                                                        <span>规格</span>
+                                                    </div>
+                                                    <div class="strip_footer_item">
+                                                        <span>销售包装:</span>
+                                                      
+                                                            <span>销售包装</span>
+                                                       
+                                                    </div>
+                                                    <div class="strip_footer_item">
+                                                        <span>数量:</span>
+                                                        <span>数量</span>
+                                                    </div>
+                                                    <div class="strip_footer_item">
+                                                        <span>金额:</span>
+                                                        <span class="theme_color">12</span>
+                                                    </div>
+                                                    <div class="strip_footer_item">
+                                                        <span>相关信息:</span>
+                                                       
+                                                            <span class="red_color">暂无</span>
+                                                      
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        
+                                    </ul>
+                                    <div class="strip_more">
+                                        <div class="strip_more_inner">
+                                            <span>本条订单共有2条记录 点击查看所有记录</span>
+                                            <img src="img/arrowMore.png"/>
+                                        </div>
+                                    </div>
+                                    <div class="strip_more_hide">
+                                        <div class="strip_more_inner_hide">
+                                            <span>点击收缩</span>
+                                            <img src="img/arrowHide.png"/>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="order_card_money">
+                                    <div class="money_left">
+                                        <span>下单时间: </span>
+                                        <span>下单时间</span>
+                                    </div>
+                                </div>
+
+                                <div class="order_card_footer footer_typeOne">
+                                   
+                                        <button class="order_confirm" data-id="{{ p.id }}">确认</button>
+                                        <button class="order_deny" data-id="{{ p.id }}">拒绝</button>
+                                    
+                                    <a class="footer_btn detail_btn"  href="orderDetail.html">查看详情</a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                 
+          
+               
+            </div>
+        
+         <div class="swiper-slide">
+             
+                        <div class="content-slide">
+                            <div class="order_card_box">
+
+                                <div class="order_card_header header_typeThree">
+                                    <div class="header_typeThree_left">
+                                        <span>求购单编号: </span>
+                                        <span>求购单编号</span>
+                                    </div>
+                                    <span class="theme_color">产品状态</span>
+                                </div>
+
+                                <div class="order_card_body body_typeThree">
+                                    <ul>
+                                      
+                                            <li class="strip">
+                                                <div class="strip_header">
+                                                    <span>产品名称:</span>
+                                                    <span>产品名称</span>
+                                                </div>
+                                                <div class="strip_footer">
+                                                    <div class="strip_footer_item">
+                                                        <span>货号:</span>
+                                                        <span>货号</span>
+                                                    </div>
+                                                    <div class="strip_footer_item">
+                                                        <span>单价:</span>
+                                                        <span>12元</span>
+                                                    </div>
+                                                    <div class="strip_footer_item">
+                                                        <span>规格:</span>
+                                                        <span>规格</span>
+                                                    </div>
+                                                    <div class="strip_footer_item">
+                                                        <span>销售包装:</span>
+                                                      
+                                                            <span>销售包装</span>
+                                                       
+                                                    </div>
+                                                    <div class="strip_footer_item">
+                                                        <span>数量:</span>
+                                                        <span>数量</span>
+                                                    </div>
+                                                    <div class="strip_footer_item">
+                                                        <span>金额:</span>
+                                                        <span class="theme_color">12</span>
+                                                    </div>
+                                                    <div class="strip_footer_item">
+                                                        <span>相关信息:</span>
+                                                       
+                                                            <span class="red_color">暂无</span>
+                                                      
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        
+                                    </ul>
+                                    <div class="strip_more">
+                                        <div class="strip_more_inner">
+                                            <span>本条订单共有2条记录 点击查看所有记录</span>
+                                            <img src="img/arrowMore.png"/>
+                                        </div>
+                                    </div>
+                                    <div class="strip_more_hide">
+                                        <div class="strip_more_inner_hide">
+                                            <span>点击收缩</span>
+                                            <img src="img/arrowHide.png"/>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="order_card_money">
+                                    <div class="money_left">
+                                        <span>下单时间: </span>
+                                        <span>下单时间</span>
+                                    </div>
+                                </div>
+
+                                <div class="order_card_footer footer_typeOne">
+                                   
+                                        <button class="order_confirm" data-id="{{ p.id }}">确认</button>
+                                        <button class="order_deny" data-id="{{ p.id }}">拒绝</button>
+                                    
+                                    <a class="footer_btn detail_btn"  href="orderDetail.html">查看详情</a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                 
+          
+               
+            </div>
+        
+         <div class="swiper-slide">
+             
+                        <div class="content-slide">
+                            <div class="order_card_box">
+
+                                <div class="order_card_header header_typeThree">
+                                    <div class="header_typeThree_left">
+                                        <span>求购单编号: </span>
+                                        <span>求购单编号</span>
+                                    </div>
+                                    <span class="theme_color">产品状态</span>
+                                </div>
+
+                                <div class="order_card_body body_typeThree">
+                                    <ul>
+                                      
+                                            <li class="strip">
+                                                <div class="strip_header">
+                                                    <span>产品名称:</span>
+                                                    <span>产品名称</span>
+                                                </div>
+                                                <div class="strip_footer">
+                                                    <div class="strip_footer_item">
+                                                        <span>货号:</span>
+                                                        <span>货号</span>
+                                                    </div>
+                                                    <div class="strip_footer_item">
+                                                        <span>单价:</span>
+                                                        <span>12元</span>
+                                                    </div>
+                                                    <div class="strip_footer_item">
+                                                        <span>规格:</span>
+                                                        <span>规格</span>
+                                                    </div>
+                                                    <div class="strip_footer_item">
+                                                        <span>销售包装:</span>
+                                                      
+                                                            <span>销售包装</span>
+                                                       
+                                                    </div>
+                                                    <div class="strip_footer_item">
+                                                        <span>数量:</span>
+                                                        <span>数量</span>
+                                                    </div>
+                                                    <div class="strip_footer_item">
+                                                        <span>金额:</span>
+                                                        <span class="theme_color">12</span>
+                                                    </div>
+                                                    <div class="strip_footer_item">
+                                                        <span>相关信息:</span>
+                                                       
+                                                            <span class="red_color">暂无</span>
+                                                      
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        
+                                    </ul>
+                                    <div class="strip_more">
+                                        <div class="strip_more_inner">
+                                            <span>本条订单共有2条记录 点击查看所有记录</span>
+                                            <img src="img/arrowMore.png"/>
+                                        </div>
+                                    </div>
+                                    <div class="strip_more_hide">
+                                        <div class="strip_more_inner_hide">
+                                            <span>点击收缩</span>
+                                            <img src="img/arrowHide.png"/>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="order_card_money">
+                                    <div class="money_left">
+                                        <span>下单时间: </span>
+                                        <span>下单时间</span>
+                                    </div>
+                                </div>
+
+                                <div class="order_card_footer footer_typeOne">
+                                   
+                                        <button class="order_confirm" data-id="{{ p.id }}">确认</button>
+                                        <button class="order_deny" data-id="{{ p.id }}">拒绝</button>
+                                    
+                                    <a class="footer_btn detail_btn"  href="orderDetail.html">查看详情</a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                 
+          
+               
+            </div>
+        
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

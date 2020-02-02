@@ -1,0 +1,45 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    color: #231f20;
+}
+
+body {
+    padding: 2.21rem 0 0;
+    box-sizing: border-box;
+}
+
+.header {
+    margin: -2.21rem 0 0;
+}
+
+.tab_box {
+    height: 100%;
+    box-sizing: border-box;
+    padding: 1.76rem 0 0;
+}
+
+
+/*我的求购单*/
+.order_card_money {
+    padding: 0.76rem 1.28rem;
+    color: #161616;
+    font-size: 0.48rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    border-bottom: 1px solid #ccc;
+}
+.money_left span i{
+    font-weight: bold;
+}
+
+.money_right span i{
+    font-size: 0.6rem;
+}
+

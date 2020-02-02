@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Lab－Direct 审批</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="采购网，泉心泉意，一站式采购，采购平台，实验室采购">
+		<meta name="description" content="泉心泉意是一个提供生物材料，化学试剂及耗材等实验室国内外一站式采购供给平台。泉心泉意还提供生物制品进出口服务，品牌保证、泉心严选。">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<META HTTP-EQUIV="pragma" CONTENT="no-cache">
+		<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
+		<META HTTP-EQUIV="expires" CONTENT="0">
+		<link rel="shortcut icon" href="img/icon/favicon.ico" type="image/x-icon" />
+
+		<!--  {#    common   #}-->
+		<link rel="stylesheet" type="text/css" href="css/common/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/common/global.css" />
+		<script type="text/javascript" charset="utf-8" src="js/common/jquery-1.10.1.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/common/font.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/common/toggle.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/approve.js"></script>
+		<!-- {#   alone    #}-->
+		<link rel="stylesheet" type="text/css" href="css/orderDetail.css" />
+		<link rel="stylesheet" type="text/css" href="css/approveDetail.css" />
+	</head>
+
+	<body>
+
+		<div class="header order">
+
+			<div class="header_order_left">
+				<img src="img/icon01.png" />
+				<span>审批详情</span>
+			</div>
+			<a class="header_order_right" href="javascript:history.go(-1)">
+				<img src="img/back.png" />
+				<span>返回</span>
+			</a>
+
+		</div>
+
+		<div class="tab_box">
+
+			<div class="order_card_box">
+				<div class="order_card_header header_typeTwo">
+					<ul>
+						<li>
+							<span>审批单编号: </span>
+							<span>审批单编号</span>
+						</li>
+						<li>
+							<span>下单时间: </span>
+							<span>下单时间</span>
+						</li>
+						<li>
+							<span>订单总金额: </span>
+							<span class="theme_color">234元</span>
+						</li>
+						<li>
+							<span>审批状态: </span>
+							<span class="theme_color">审批中</span>
+						</li>
+						<li>
+							<span>申购人: </span>
+							<span class="theme_color">申购人</span>
+						</li>
+
+					</ul>
+				</div>
+				<div class="order_card_body body_typeThree" style="padding-bottom: 10px;">
+					<ul>
+
+						<li class="strip">
+							<div class="strip_header">
+								<span>产品名称</span>
+								<!-- <span class="theme_color">待审批</span>-->
+							</div>
+							<div class="strip_footer">
+								<div class="strip_footer_item">
+									<span>货号:</span>
+									<span>货号</span>
+								</div>
+								<div class="strip_footer_item">
+									<span>单价:</span>
+									<span>单价元</span>
+								</div>
+								<div class="strip_footer_item">
+									<span>规格:</span>
+									<span>规格</span>
+								</div>
+								<div class="strip_footer_item">
+									<span>数量:</span>
+									<span>数量</span>
+								</div>
+								<div class="strip_footer_item">
+									<span>货期:</span> 
+									<span class="theme_color">暂无</span>
+								</div>
+								<div class="strip_footer_item">
+									<span>金额:</span>
+									<span class="theme_color">123元</span>
+								</div>
+							</div>
+						</li>
+						
+					</ul>
+					<div class="strip_more">
+						<div class="strip_more_inner">
+							<span>本条订单共有12条记录 点击查看所有记录</span>
+							<img src="img/arrowMore.png" />
+						</div>
+					</div>
+
+					<div class="strip_more_hide">
+						<div class="strip_more_inner_hide">
+							<span>点击收缩</span>
+							<img src="img/arrowHide.png" />
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="invoice_card_box">
+				<ul>
+					<li>
+						<span>课题组名称: </span>
+						<span>课题组名称</span>
+					</li>
+					<li>
+						<span>下单用户名: </span>
+						<span>下单用户名</span>
+					</li>
+					<li>
+						<span>收货地址: </span>
+						<span>收货地址收货地址收货地址收货地址收货地址收货地址收货地址</span>
+					</li>
+					<li>
+						<span>开票抬头: </span>
+						<span>开票抬头开票抬头</span>
+					</li>
+					<li>
+						<span>审批金额:</span>
+						<span class="theme_color">12元</span>
+					</li>
+					<li>
+						<span>用户备注:</span>
+						<span class="theme_color">用户备注用户备注用户备注用户备注用户备注用户备注</span>
+					</li>
+
+				</ul>
+			</div>
+
+		
+				
+			<div class="check_product_box">
+				<div class="check_top">
+					<p>审批意见及记录</p>
+				</div>
+
+				<div class="approve_action_box">
+					<ul>
+						<li>
+							<span>审批人:</span>
+							<span>审批人</span>
+						</li>
+						<li>
+							<span>审批日期:</span>
+							<span>审批日期</span>
+						</li>
+					</ul>
+
+					<div class="remarks_box">
+						<span>意见:</span>
+						<textarea id="approve_remark" placeholder="(不超过200字,可以不填写)"></textarea>
+					</div>
+					<ul class="approve_action">
+						<li class="approve_action_li">
+							<div class="check_li">
+								<span class="check_box"></span>
+								<input style="display: none;" type="checkbox" name="" id="auto" value="" class="if_approve" data-boolean="1" />
+							</div>
+							<span style="color:#60b2e6">我已确认，同意审批</span>
+						</li>
+						<li class="approve_action_li">
+							<div class="check_li">
+								<span class="check_box"></span>
+								<input style="display: none;" type="checkbox" name="" id="auto" value="" class="if_approve" data-boolean="0" />
+							</div>
+							<span style="color:#cc0000">对此订单有疑问，不同意审批</span>
+						</li>
+					</ul>
+
+				</div>
+
+				<div class="order_card_body body_typeThree">
+					<ul>
+						
+						<li class="strip">
+							<div class="strip_header">
+								<span>审批次数: </span>
+								<span class="theme_color">第1次</span>
+							</div>
+							<div class="strip_footer">
+								<div class="strip_footer_item">
+									<span>审批人:</span>
+									<span>审批人</span>
+								</div>
+								<div class="strip_footer_item">
+									<span>审批日期:</span>
+									<span>审批日期</span>
+								</div>
+								<div class="strip_footer_item">
+									<span>审批结果:</span>同意 
+									</span>
+								</div>
+							</div>
+							<div class="strip_header approve_footer">
+								<span>审批意见: </span>
+								<span>审批意见审批意见审批意见审批意见审批意见审批意见审批意见审批意见</span>
+							</div>
+						</li>
+						
+
+					</ul>
+					<div class="strip_more">
+						<div class="strip_more_inner">
+							<span>本条订单共有12条记录 点击查看所有记录</span>
+							<img src="img/arrowMore.png" />
+						</div>
+					</div>
+
+					<div class="strip_more_hide">
+						<div class="strip_more_inner_hide">
+							<span>点击收缩</span>
+							<img src="img/arrowHide.png" />
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="footer_box">
+				<button class="footer_btn" id="submit_approve">提交审批</button>
+			</div>
+
+		</div>
+
+		<script>
+			$(".approve_action_li .check_li").click(function() {
+				$(this).parent(".approve_action_li").siblings(".approve_action_li").find('input').attr("checked", false);
+				$(this).parent(".approve_action_li").siblings(".approve_action_li").find('.check_box').removeClass('checked');
+				$(this).find('input').attr("checked", true);
+				$(this).find('.check_box').addClass('checked');
+			});
+		</script>
+
+	</body>
+
+</html>

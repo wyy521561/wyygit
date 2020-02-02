@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Lab－Direct 我的订单</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="采购网，泉心泉意，一站式采购，采购平台，实验室采购">
+		<meta name="description" content="泉心泉意是一个提供生物材料，化学试剂及耗材等实验室国内外一站式采购供给平台。泉心泉意还提供生物制品进出口服务，品牌保证、泉心严选。">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<META HTTP-EQUIV="pragma" CONTENT="no-cache">
+		<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
+		<META HTTP-EQUIV="expires" CONTENT="0">
+		<link rel="shortcut icon" href="img/icon/favicon.ico" type="image/x-icon" />
+
+		<!-- {#    common   #}-->
+		<link rel="stylesheet" type="text/css" href="css/common/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/common/global.css" />
+		<link rel="stylesheet" type="text/css" href="css/common/tab.css" />
+		<script type="text/javascript" charset="utf-8" src="js/common/jquery-1.10.1.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/common/idangerous.swiper.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/common/tab.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/common/font.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/common/toggle.js"></script>
+
+		<!-- {#   alone    #}-->
+		<link rel="stylesheet" type="text/css" href="css/order.css" />
+
+	</head>
+
+	<body>
+
+		<div class="header order">
+
+			<div class="header_order_left">
+				<img src="img/icon01.png" />
+				<span>我的订单</span>
+			</div>
+			<a class="header_order_right" href="search.html">
+				<img src="img/search.png" />
+				<span>搜索</span>
+			</a>
+
+		</div>
+
+		<div class="tab_box">
+
+			<div class="tabs">
+				<a href="#" hidefocus="true" class="active">全部</a>
+				<a href="#" hidefocus="true">新订单</a>
+				<a href="#" hidefocus="true">审批中</a>
+				<a href="#" hidefocus="true">未通过审批</a>
+				<a href="#" hidefocus="true">已发货</a>
+			</div>
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="content-slide">
+
+							<div class="order_card_box">
+								<div class="order_card_header header_typeOne">
+									<ul>
+										<li>
+											<span>订单编号: </span>
+											<span>12667891234</span>
+										</li>
+										<li>
+											<span>订单总金额: </span>
+											<span class="theme_color">120元</span>
+										</li>
+										<li>
+											<span>下单时间: </span>
+											<span>2019-05-13 15:18</span>
+										</li>
+									</ul>
+								</div>
+								<div class="order_card_body body_typeOne">
+									<ul>
+
+										<li class="strip">
+											<div class="strip_header">
+												<span>订单名字</span>
+												<span class="theme_color">待审批</span>
+											</div>
+											<div class="strip_footer">
+												<div class="strip_footer_item">
+													<span>货号:</span>
+													<span>货号</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>单价:</span>
+													<span>单价元</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>规格:</span>
+													<span>规格</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>数量:</span>
+													<span>数量</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>货期:</span>
+													<span class="theme_color">
+                                                  
+													<span>暂无</span>
+													</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>金额:</span>
+													<span class="theme_color">金额元</span>
+												</div>
+											</div>
+										</li>
+										<li class="strip">
+											<div class="strip_header">
+												<span>订单名字</span>
+												<span class="theme_color">待审批</span>
+											</div>
+											<div class="strip_footer">
+												<div class="strip_footer_item">
+													<span>货号:</span>
+													<span>货号</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>单价:</span>
+													<span>单价元</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>规格:</span>
+													<span>规格</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>数量:</span>
+													<span>数量</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>货期:</span>
+													<span class="theme_color">
+                                                  
+													<span>暂无</span>
+													</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>金额:</span>
+													<span class="theme_color">金额元</span>
+												</div>
+											</div>
+										</li>
+
+									</ul>
+									<div class="strip_more">
+										<div class="strip_more_inner">
+											<span>本条订单共有23条记录 点击查看所有记录</span>
+											<img src="img/arrowMore.png" />
+										</div>
+									</div>
+
+									<div class="strip_more_hide">
+										<div class="strip_more_inner_hide">
+											<span>点击收缩</span>
+											<img src="img/arrowHide.png" />
+										</div>
+									</div>
+
+								</div>
+								<div class="order_card_footer footer_typeOne">
+
+									<a class="footer_btn again_btn">再次下单</a>
+
+									<a class="footer_btn detail_btn" href="orderDetail.html">查看详情</a>
+								</div>
+							</div>
+
+							<div class="no_card">
+								<span>您还没有相关的订单</span>
+							</div>
+
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="content-slide">
+
+							<div class="order_card_box">
+								<div class="order_card_header header_typeOne">
+									<ul>
+										<li>
+											<span>订单编号: </span>
+											<span>12667891234</span>
+										</li>
+										<li>
+											<span>订单总金额: </span>
+											<span class="theme_color">120元</span>
+										</li>
+										<li>
+											<span>下单时间: </span>
+											<span>2019-05-13 15:18</span>
+										</li>
+									</ul>
+								</div>
+								<div class="order_card_body body_typeOne">
+									<ul>
+
+										<li class="strip">
+											<div class="strip_header">
+												<span>订单名字</span>
+												<span class="theme_color">待审批</span>
+											</div>
+											<div class="strip_footer">
+												<div class="strip_footer_item">
+													<span>货号:</span>
+													<span>货号</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>单价:</span>
+													<span>单价元</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>规格:</span>
+													<span>规格</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>数量:</span>
+													<span>数量</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>货期:</span>
+													<span class="theme_color">
+                                                  
+													<span>暂无</span>
+													</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>金额:</span>
+													<span class="theme_color">金额元</span>
+												</div>
+											</div>
+										</li>
+										<li class="strip">
+											<div class="strip_header">
+												<span>订单名字</span>
+												<span class="theme_color">待审批</span>
+											</div>
+											<div class="strip_footer">
+												<div class="strip_footer_item">
+													<span>货号:</span>
+													<span>货号</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>单价:</span>
+													<span>单价元</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>规格:</span>
+													<span>规格</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>数量:</span>
+													<span>数量</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>货期:</span>
+													<span class="theme_color">
+                                                  
+													<span>暂无</span>
+													</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>金额:</span>
+													<span class="theme_color">金额元</span>
+												</div>
+											</div>
+										</li>
+										<li class="strip">
+											<div class="strip_header">
+												<span>订单名字</span>
+												<span class="theme_color">待审批</span>
+											</div>
+											<div class="strip_footer">
+												<div class="strip_footer_item">
+													<span>货号:</span>
+													<span>货号</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>单价:</span>
+													<span>单价元</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>规格:</span>
+													<span>规格</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>数量:</span>
+													<span>数量</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>货期:</span>
+													<span class="theme_color">
+                                                  
+													<span>暂无</span>
+													</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>金额:</span>
+													<span class="theme_color">金额元</span>
+												</div>
+											</div>
+										</li>
+									</ul>
+									<div class="strip_more">
+										<div class="strip_more_inner">
+											<span>本条订单共有23条记录 点击查看所有记录</span>
+											<img src="img/arrowMore.png" />
+										</div>
+									</div>
+
+									<div class="strip_more_hide">
+										<div class="strip_more_inner_hide">
+											<span>点击收缩</span>
+											<img src="img/arrowHide.png" />
+										</div>
+									</div>
+
+								</div>
+								<div class="order_card_footer footer_typeOne">
+
+									<a class="footer_btn again_btn">再次下单</a>
+
+									<a class="footer_btn detail_btn" href="orderDetail.html">查看详情</a>
+								</div>
+							</div>
+
+							<div class="no_card">
+								<span>您还没有相关的订单</span>
+							</div>
+
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="content-slide">
+
+							<div class="order_card_box">
+								<div class="order_card_header header_typeOne">
+									<ul>
+										<li>
+											<span>订单编号: </span>
+											<span>12667891234</span>
+										</li>
+										<li>
+											<span>订单总金额: </span>
+											<span class="theme_color">120元</span>
+										</li>
+										<li>
+											<span>下单时间: </span>
+											<span>2019-05-13 15:18</span>
+										</li>
+									</ul>
+								</div>
+								<div class="order_card_body body_typeOne">
+									<ul>
+
+										<li class="strip">
+											<div class="strip_header">
+												<span>订单名字</span>
+												<span class="theme_color">待审批</span>
+											</div>
+											<div class="strip_footer">
+												<div class="strip_footer_item">
+													<span>货号:</span>
+													<span>货号</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>单价:</span>
+													<span>单价元</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>规格:</span>
+													<span>规格</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>数量:</span>
+													<span>数量</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>货期:</span>
+													<span class="theme_color">
+                                                  
+													<span>暂无</span>
+													</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>金额:</span>
+													<span class="theme_color">金额元</span>
+												</div>
+											</div>
+										</li>
+										<li class="strip">
+											<div class="strip_header">
+												<span>订单名字</span>
+												<span class="theme_color">待审批</span>
+											</div>
+											<div class="strip_footer">
+												<div class="strip_footer_item">
+													<span>货号:</span>
+													<span>货号</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>单价:</span>
+													<span>单价元</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>规格:</span>
+													<span>规格</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>数量:</span>
+													<span>数量</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>货期:</span>
+													<span class="theme_color">
+                                                  
+													<span>暂无</span>
+													</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>金额:</span>
+													<span class="theme_color">金额元</span>
+												</div>
+											</div>
+										</li>
+
+									</ul>
+									<div class="strip_more">
+										<div class="strip_more_inner">
+											<span>本条订单共有23条记录 点击查看所有记录</span>
+											<img src="img/arrowMore.png" />
+										</div>
+									</div>
+
+									<div class="strip_more_hide">
+										<div class="strip_more_inner_hide">
+											<span>点击收缩</span>
+											<img src="img/arrowHide.png" />
+										</div>
+									</div>
+
+								</div>
+								<div class="order_card_footer footer_typeOne">
+
+									<a class="footer_btn again_btn">再次下单</a>
+
+									<a class="footer_btn detail_btn" href="orderDetail.html">查看详情</a>
+								</div>
+							</div>
+
+							<div class="no_card">
+								<span>您还没有相关的订单</span>
+							</div>
+
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="content-slide">
+
+							<div class="order_card_box">
+								<div class="order_card_header header_typeOne">
+									<ul>
+										<li>
+											<span>订单编号: </span>
+											<span>12667891234</span>
+										</li>
+										<li>
+											<span>订单总金额: </span>
+											<span class="theme_color">120元</span>
+										</li>
+										<li>
+											<span>下单时间: </span>
+											<span>2019-05-13 15:18</span>
+										</li>
+									</ul>
+								</div>
+								<div class="order_card_body body_typeOne">
+									<ul>
+
+										<li class="strip">
+											<div class="strip_header">
+												<span>订单名字</span>
+												<span class="theme_color">待审批</span>
+											</div>
+											<div class="strip_footer">
+												<div class="strip_footer_item">
+													<span>货号:</span>
+													<span>货号</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>单价:</span>
+													<span>单价元</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>规格:</span>
+													<span>规格</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>数量:</span>
+													<span>数量</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>货期:</span>
+													<span class="theme_color">
+                                                  
+													<span>暂无</span>
+													</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>金额:</span>
+													<span class="theme_color">金额元</span>
+												</div>
+											</div>
+										</li>
+										<li class="strip">
+											<div class="strip_header">
+												<span>订单名字</span>
+												<span class="theme_color">待审批</span>
+											</div>
+											<div class="strip_footer">
+												<div class="strip_footer_item">
+													<span>货号:</span>
+													<span>货号</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>单价:</span>
+													<span>单价元</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>规格:</span>
+													<span>规格</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>数量:</span>
+													<span>数量</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>货期:</span>
+													<span class="theme_color">
+                                                  
+													<span>暂无</span>
+													</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>金额:</span>
+													<span class="theme_color">金额元</span>
+												</div>
+											</div>
+										</li>
+
+									</ul>
+									<div class="strip_more">
+										<div class="strip_more_inner">
+											<span>本条订单共有23条记录 点击查看所有记录</span>
+											<img src="img/arrowMore.png" />
+										</div>
+									</div>
+
+									<div class="strip_more_hide">
+										<div class="strip_more_inner_hide">
+											<span>点击收缩</span>
+											<img src="img/arrowHide.png" />
+										</div>
+									</div>
+
+								</div>
+								<div class="order_card_footer footer_typeOne">
+
+									<a class="footer_btn again_btn">再次下单</a>
+
+									<a class="footer_btn detail_btn" href="orderDetail.html">查看详情</a>
+								</div>
+							</div>
+
+							<div class="no_card">
+								<span>您还没有相关的订单</span>
+							</div>
+
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="content-slide">
+
+							<div class="order_card_box">
+								<div class="order_card_header header_typeOne">
+									<ul>
+										<li>
+											<span>订单编号: </span>
+											<span>12667891234</span>
+										</li>
+										<li>
+											<span>订单总金额: </span>
+											<span class="theme_color">120元</span>
+										</li>
+										<li>
+											<span>下单时间: </span>
+											<span>2019-05-13 15:18</span>
+										</li>
+									</ul>
+								</div>
+								<div class="order_card_body body_typeOne">
+									<ul>
+
+										<li class="strip">
+											<div class="strip_header">
+												<span>订单名字</span>
+												<span class="theme_color">待审批</span>
+											</div>
+											<div class="strip_footer">
+												<div class="strip_footer_item">
+													<span>货号:</span>
+													<span>货号</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>单价:</span>
+													<span>单价元</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>规格:</span>
+													<span>规格</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>数量:</span>
+													<span>数量</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>货期:</span>
+													<span class="theme_color">
+                                                  
+													<span>暂无</span>
+													</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>金额:</span>
+													<span class="theme_color">金额元</span>
+												</div>
+											</div>
+										</li>
+										<li class="strip">
+											<div class="strip_header">
+												<span>订单名字</span>
+												<span class="theme_color">待审批</span>
+											</div>
+											<div class="strip_footer">
+												<div class="strip_footer_item">
+													<span>货号:</span>
+													<span>货号</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>单价:</span>
+													<span>单价元</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>规格:</span>
+													<span>规格</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>数量:</span>
+													<span>数量</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>货期:</span>
+													<span class="theme_color">
+                                                  
+													<span>暂无</span>
+													</span>
+												</div>
+												<div class="strip_footer_item">
+													<span>金额:</span>
+													<span class="theme_color">金额元</span>
+												</div>
+											</div>
+										</li>
+
+									</ul>
+									<div class="strip_more">
+										<div class="strip_more_inner">
+											<span>本条订单共有23条记录 点击查看所有记录</span>
+											<img src="img/arrowMore.png" />
+										</div>
+									</div>
+
+									<div class="strip_more_hide">
+										<div class="strip_more_inner_hide">
+											<span>点击收缩</span>
+											<img src="img/arrowHide.png" />
+										</div>
+									</div>
+
+								</div>
+								<div class="order_card_footer footer_typeOne">
+
+									<a class="footer_btn again_btn">再次下单</a>
+
+									<a class="footer_btn detail_btn" href="orderDetail.html">查看详情</a>
+								</div>
+							</div>
+
+							<div class="no_card">
+								<span>您还没有相关的订单</span>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</body>
+
+</html>
