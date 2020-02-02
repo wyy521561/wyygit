@@ -1,0 +1,470 @@
+body,html{
+	width: 100%;
+	height: 100%;
+	font-size: 25px;
+	color: #231f20;
+}
+.header{
+	height: 2.92rem;
+	padding: 0.5rem 0.3rem 0;
+}
+.headerLogo{
+	height: 100%;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	box-sizing: border-box;
+	background: #fff;
+}
+.headerLogo_Left{
+	width:7.44rem;
+	height: 0.9rem;
+	margin-top: 1rem;
+	margin-left: 0.6rem;
+}
+.headerLogo_Left img{
+	width: 7.44rem;
+	height: 0.9rem;
+}
+.headerLogo_Right{
+	width: 4.58rem;
+	height: 1.08rem;
+	margin-top: 1rem;
+	margin-right: 0.6rem;
+}
+.headerLogo_Right img{
+	width: 4.58rem;
+	height: 1.08rem;
+}
+.search_box{
+	display: flex;
+	height: 1.2rem;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	
+}
+.search_box input{
+	width: 10rem;
+	height: 1.2rem;
+	border-radius: 0.5rem;
+	border: none;
+	outline: none;
+	padding: 0rem 1.3rem;
+	background:#F0F0F0;
+	font-size: 0.5rem;
+	font-weight: bold;
+	color: #231F20;
+}
+.search_box input::-webkit-input-placeholder{
+	color: #B0B0B0;
+	font-size: 0.5rem;
+}
+.search_box button{
+	position: absolute;
+	right: 12.5rem;
+	top: 3.67rem;
+	border: none;
+	background: none;
+	outline:none;
+}
+.search_box img{
+	width: 0.64rem;
+	height: 0.64rem;
+}
+.bannerbox{
+	height: 8.8rem;
+	margin-top: 0.4rem;
+
+	
+}
+
+.swiper-slide{
+	width:10rem
+}
+.swiper-slide img{
+	width: 12.56rem;
+	height:6.04rem;
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.1);
+	
+}
+.bannerTheme{
+	width:12.56rem;
+	height: 2.5rem;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	font-size: 0.4rem;
+	font-weight: bold;
+	box-shadow: 0 0 30px rgba(0,0,0,0.1);
+	border-bottom-left-radius: 0.3rem;
+	border-bottom-right-radius: 0.3rem;
+
+}
+.offer{
+	height: 9rem;
+	margin-top:0.4rem;
+	padding: 0  1.22rem 0 1.22rem;
+}
+.offer ul{
+	display:flex;
+	flex-direction: row;
+	justify-content:flex-start;
+	flex-wrap: wrap;
+	align-content: center;
+	align-items: center;
+}
+.offer ul li{
+	width: 3.14rem;
+	height: 4.32rem;
+	display:flex;
+	flex-direction:column;
+	align-content: center;
+	align-items: center;
+	font-size: 0.4rem;
+	font-weight: bold;
+
+}
+.offer ul li img{
+	width: 3.14rem;
+	height: 3.14rem;
+}
+.offer ul li span{
+	display: block;
+	margin-left: -0.25rem;
+}
+.recommend{
+	/* height: 19rem; */
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+	padding: 0 1.22rem;
+}
+.recommendHeader{
+	height: 1.5rem;
+	
+}
+.recommendHeader_items{
+	width: 14.8rem;
+	height: 1.5rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+	align-items: center;
+}
+.recommendHeader_items .first{
+	display: block;
+	width: 1.56rem;
+	font-weight: 100;
+	margin-right: 0.4rem;
+	margin-left: 2.4rem;
+}
+.recommendHeader_items img{
+	width: 0.6rem;
+	height: 0.58rem;
+	margin-left: 0.5rem;
+	margin-top: -0.3rem;
+}
+.recommendHeader_items ul li{
+	font-size: 0.6rem;
+	font-weight: bold;
+
+	margin-left: 0.4rem;
+	margin-top: -0.1rem;
+}
+.recommendHeader_items .second{
+	display: block;
+	width: 1.56rem;
+	font-weight: 100;
+	margin-right: 2.98rem;
+	margin-left: 0.4rem;
+}
+.recommendHeader_itemsCard{
+	height:9.56rem;
+	display: flex;
+	justify-content: flex-start;
+	align-content: center;
+	align-items: center;
+	padding: 0 1.22rem;
+}
+.recommendHeader_itemsCard ul li{
+	width:4.18rem;
+	height: 8.94rem;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+}
+.back{
+	width:4rem;
+	height: 4.92rem;
+	background: #F0F0F0;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+.back img{
+	width: 2.32rem;
+	height: 3.64rem;
+}
+.recommendHeader_itemsCard ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
+}
+.recommendHeader_itemsCard ul li span{
+	display: block;
+	width: 3.02rem;
+	font-size: 0.4rem;
+    font-weight: bold;
+	margin-top: 0.5rem;
+	line-height: 0.6rem;
+}
+.recommendBtn{
+	padding: 0.2rem 0.64rem;
+	width: 2rem;
+/* 	height: 1rem; */
+	border: 1.3px solid #FF9900;
+	border-radius: 1rem;
+	outline: none;
+	text-decoration: none;
+	font-size: 0.48rem;
+	text-align: center;
+	color: #FF9900;
+	margin-top: 0.3rem;
+}
+.back .card{
+	width:3.4rem;
+	height: 2.32rem;
+}
+.moreCard{
+	height:1.5rem;
+	padding: 0rem 1rem;
+	margin-bottom: 0.5rem;
+	
+}
+.moreCardBtn{
+	width: 8.4rem;
+	border-radius: 1rem;
+	outline: none;
+	text-decoration: none;
+	font-size: 0.5rem;
+	background: #FF9900;
+	color: #FFFFFF;
+	padding: 0.16rem 2.5rem;
+	margin-left: 3rem;
+}
+.moreCardBtnHide{
+	width: 8.4rem;
+	border-radius: 1rem;
+	outline: none;
+	text-decoration: none;
+	font-size: 0.5rem;
+	background: #FF9900;
+	color: #FFFFFF;
+	padding: 0.16rem 2.5rem;
+	margin-left: 3.5rem;
+}
+.funEnjoy{
+	height: 10rem;
+}
+.funEnjoy img{
+    width: 14.9rem;
+	height: 10.04rem;
+}
+.worldWatch{
+	height: 4.5rem;
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	align-items: center;
+	padding: 0 1rem;
+}
+.worldWatch  img{
+	width: 12.38rem;
+	height: 3.2rem;
+	margin-left: 0.3rem;
+}
+.worldWatchOne{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: center;
+	align-items: center;
+	font-size: 0.6rem;
+}
+.worldWatchOne span{
+	margin-left: 0.7rem;
+}
+.worldWatchOne .award{
+	margin-left: 0.2rem;
+}
+.start{
+	height:1.5rem;
+	padding: 0.2rem 1rem;
+	margin-top: 1rem;
+	margin-bottom: 0.8rem;
+}
+.startBtn{
+	width: 8.4rem;
+	border-radius: 1rem;
+	outline: none;
+	text-decoration: none;
+	font-size: 0.5rem;
+	background: #FF9900;
+	color: #FFFFFF;
+	padding: 0.16rem 2.5rem;
+	margin-left: 3rem;
+}
+.moreCardHide{
+	display: none;
+	height: 1.5rem;
+	padding: 0rem 1rem;
+	margin-bottom: 0.5rem;
+}
+.searchHeader{
+	background: #f2f2f2;
+	height: 1.8rem;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	box-sizing: border-box;
+	align-content: center;
+
+}
+.searchHeader input{
+	width: 8.7rem;
+	height:1.2rem;
+	float: left;
+	margin-top:0.22rem;
+	border: none;
+	border-radius: 1.32rem;
+	font-size: 0.56rem;
+	margin-left: 0.6rem;
+	padding-left: 1.3rem;
+	outline: none;
+}
+.searchBox{
+	position: absolute;
+    width: 1.2rem;
+	height: 1.32rem;
+	float: left;
+	background: none;
+	outline: none;
+	margin-left: 0.7rem;
+	margin-top: 0.28rem;
+	border: none;
+}
+.searchBox img{
+	display: block;
+	width: 0.64rem;
+	height: 0.64rem;
+	margin: auto;
+}
+.searchSure{
+	border: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+	float: right;
+	margin-right: 0.55rem;
+	font-size: 0.64rem;
+	height: 1.72rem;
+	line-height: 1.72rem;
+	background: #F2F2F2;
+	outline: none;
+	margin-left: 0.56rem;
+}
+.searchCancel{
+	border: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+	float: right;
+	margin-right: 0.55rem;
+	font-size: 0.64rem;
+	height: 1.72rem;
+	line-height: 1.72rem;
+	background: #F2F2F2;
+	outline: none;
+}
+.historyTitle{
+	color: #f38e0d;
+	background-color: #eee;
+	height: 1.4rem;
+	line-height: 1.4rem;
+	padding-left: 1.5rem;
+	font-size: 0.64rem;
+	background-image: url(../img/history.png);
+	background-repeat: no-repeat;
+	background-position: 0.68rem center;
+	background-size: 0.7rem;
+}
+.history ul li{
+	height: 1.92rem;
+	line-height: 1.92rem;
+	border-bottom: 1px solid #ddd;
+	padding-left: 1.5rem;
+	font-size: 0.6rem;
+	overflow: hidden;
+	color: #2e2e2e;
+}
+.history ul li a{
+	display: block;
+	color: #2E2E2E;
+	width: 8rem;
+	float: left;
+}
+.history ul li i{
+	float: right;
+	font-style: normal;
+	padding-right: 1.2rem;
+	height: 0.88rem;
+	width: 0.88rem;
+	margin-top: 0.5rem;
+	display: block;
+	background: url(../img/close.png);
+	background-size:0.66rem;
+}
+.hotTitle{
+	color: #f38e0d;
+	background-color:#EEEEEE;
+	height: 1.4rem;
+	line-height: 1.4rem;
+	padding-left: 1.5rem;
+	font-size: 0.64rem;
+	background-image:url(../img/hot.png) ;
+	background-repeat: no-repeat;
+	background-position: 0.68rem center;
+	background-size: 0.7rem;
+}
+.hot ul{
+	overflow: hidden;
+	padding-left: 1.5rem;
+}
+.hot ul li{
+	height: 1.2rem;
+    line-height: 1.2rem;
+    border: 1px solid #ddd;
+    font-size: .6rem;
+    overflow: hidden;
+    float: left;
+    border-radius: 5px;
+    padding: 0 .3rem;
+    margin-right: .4rem;
+    margin-top: .4rem;
+    color: #2e2e2e;
+}
+.hot ul li a{
+	display: block;
+	color: #2e2e2e;
+	text-decoration: none;
+}

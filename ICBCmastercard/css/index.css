@@ -1,0 +1,158 @@
+.body.html {
+	width: 100%;
+	height: 100%;
+	font-size: 25px;
+}
+
+.background {
+	width: 100%;
+	height: 26.68rem;
+	background: url(../img/icbc_guide_bg.jpg) no-repeat center center;
+	background-size: 100% 100%;
+}
+
+.headerlogo {
+	width: 100%;
+	height: 2.42rem;
+	background: transparent;
+	display: flex;
+	box-sizing: border-box;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+	padding: 1.6rem 1rem 0;
+}
+
+.headerlogo_left {
+	width: 8rem;
+	height: 1.32rem;
+
+}
+
+.headerlogo_left img {
+	width: 8rem;
+	height: 1rem;
+}
+
+.headerlogo_right {
+	width: 4rem;
+	height: 1.32rem;
+	margin-right: 0.5rem;
+}
+
+.headerlogo_right img {
+	width: 4.5rem;
+	height: 1.15rem;
+}
+
+.items {
+	width: 100%;
+	height: 5.54rem;
+	margin-top: 4.8rem;
+	background: transparent;
+	display: flex;
+	box-sizing: border-box;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+}
+.items .leftFadeIn{
+	width: 5.54rem;
+	height: 5.54rem;
+	left: 3rem;
+	position: absolute;
+	z-index: 1;
+	
+}
+.items .fadeInLeftOne{
+	width: 0.4rem;
+	height: 0.42rem;
+	left: 3.8rem;
+	position: absolute;
+	z-index: 3;
+	margin-top: 1.5rem;
+	opacity: 0;
+
+}
+.items .fadeInRightOne{
+	width: 0.4rem;
+	height: 0.42rem;
+	right: 4.4rem;
+	position: absolute;
+	z-index: 3;
+	margin-top: -1.43rem;
+	opacity: 0;
+}
+.center{
+	width:7.5rem;
+	height:3rem ;
+	position: absolute;
+	z-index: 3;
+	left: 4.1rem;
+}
+
+
+.items img:last-child {
+	width: 5.54rem;
+	height: 5.54rem;
+	right: 2rem;
+	position: absolute;
+	z-index: 2;
+}
+
+.itemsOne{
+	width: 100%;
+	height: 4rem;
+	margin-top: 2.3rem;
+	background: transparent;
+	display: flex;
+	box-sizing: border-box;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+}
+
+.itemsOneLeft {
+	width: 2.24rem;
+	height: 3.6rem;
+	margin-left: 4.3rem;
+}
+
+.itemsOneLeft img {
+	width: 2.84rem;
+	height: 4.32rem;
+}
+
+.itemsOneRight {
+	width: 2.24rem;
+	height: 3.6rem;
+	margin-right: 4.4rem;
+}
+
+.itemsOneRight img {
+	width: 2.84rem;
+	height: 4.32rem;
+}
+
+.itemsTwoBtn {
+	width: 100%;
+	height: 3rem;
+	margin-top: 3rem;
+	background: transparent;
+	display: flex;
+	box-sizing: border-box;
+	align-content: center;
+	align-items: center;
+}
+
+.itemsTwoBtn a {
+	display: block;
+	border: 1px solid #FFFFFF;
+	background: transparent;
+	color: #FFFFFF;
+	padding: 0.2rem 0.6rem;
+	border-radius: 0.3rem;
+	text-decoration: none;
+	font-size: 12px;
+	margin-left: 6.2rem;
+}

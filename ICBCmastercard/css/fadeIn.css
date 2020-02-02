@@ -1,0 +1,118 @@
+@-webkit-keyframes leftFadeIn {
+	from {
+		left: -4rem;
+	}
+
+	to {
+		left: 3rem;
+	}
+}
+
+@keyframes leftFadeIn {
+	from {
+		left: -4rem;
+	}
+
+	to {
+		left: 3rem;
+
+	}
+}
+
+.left {
+	animation: leftFadeIn 1s;
+	-moz-animation: leftFadeIn 1s;
+	-webkit-animation: leftFadeIn 1s;
+	-o-animation: leftFadeIn 1s;
+}
+
+@-webkit-keyframes rightFadeIn {
+	from {
+		right: -4rem;
+	}
+
+	to {
+		right: 2rem;
+	}
+}
+
+@keyframes rightFadeIn {
+	from {
+		right: -4rem;
+	}
+
+	to {
+		right: 2rem;
+	}
+}
+
+.right {
+	animation: rightFadeIn 1s;
+	-moz-animation: rightFadeIn 1s;
+	-webkit-animation: rightFadeIn 1s;
+	-o-animation: rightFadeIn 1s;
+}
+
+@-webkit-keyframes fadeInLeftOne {
+	from {
+		opacity: 0;
+		left: 3rem;
+	}
+
+	to {
+		opacity: 1;
+		left: 3.8rem;
+	}
+}
+
+@keyframes fadeInLeftOne {
+	from {
+		opacity: 0;
+		left: 3rem;
+	}
+
+	to {
+		opacity: 1;
+		left: 3.8rem;
+	}
+}
+
+.angle {
+	animation: fadeInLeftOne 1s 2s;
+	-moz-animation: fadeInLeftOne 1s 2s;
+	-webkit-animation: fadeInLeftOne 1s 2s;
+	-o-animation: fadeInLeftOne 1s 2s;
+	animation-fill-mode:forwards ;
+}
+
+@-webkit-keyframes fadeInRightOne {
+	from {
+		opacity: 0;
+		right: 2rem;
+	}
+
+	to {
+		opacity: 1;
+		right: 4.4rem;
+	}
+}
+
+@keyframes fadeInRightOne {
+	from {
+		opacity: 0;
+		right: 2rem;
+	}
+
+	to {
+		opacity: 1;
+		right: 4.4rem;
+	}
+}
+
+.angleOne {
+	animation: fadeInRightOne 1s 2s;
+	-moz-animation: fadeInRightOne 1s 2s;
+	-webkit-animation: fadeInRightOne 1s 2s;
+	-o-animation: fadeInRightOne 1s 2s;
+	animation-fill-mode:forwards ;
+}

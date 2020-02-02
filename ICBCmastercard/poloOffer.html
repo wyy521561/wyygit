@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale-1.0,maximum-scale=1.0,user-scalable=0" />
+		<meta name="keywords" content="万事达">
+		<meta name="description" content="万事达" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="Cache-Control" content="no-cache,must-revalidate" />
+		<meta http-equiv="expires" content="0" />
+		<title>2019工银万事达卡产品权益平台</title>
+		<link href="css/common/reset.css" rel="stylesheet" type="text/css" />
+		<link href="css/app.css" rel="stylesheet" type="text/css" />
+		<link href="css/poloOffer.css" rel="stylesheet" type="text/css" />
+		<link href="css/mui.min.css" rel="stylesheet" type="text/css" />
+		<link href="css/mui.picker.css" rel="stylesheet" type="text/css" />
+		<link href="css/mui.poppicker.css" rel="stylesheet" type="text/css" />
+		<script src="js/common/jquery-1.10.1.min.js" type="text/javascript" charset="UTF-8"></script>
+		<script src="js/common/font.js" type="text/javascript" charset="UTF-8"></script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="headerLogo">
+				<div class="headerLogo_Left">
+					<img src="img/icbc_logo.png" />
+				</div>
+				<div class="headerLogo_Right">
+					<img src="img/home_msc_logo.png" />
+				</div>
+			</div>
+		</div>
+		<div class="shop">
+			<div class="shopLeft">
+				<span class="shopLeftWords">香港及澳门精选商户</span>
+			</div>
+			
+			
+			<div  class="shopRight">
+				<div id="showUserPicker" class="shopRight">
+					<span id="userResult">购物</span>
+					<img src="img/down.png" />
+				</div>
+			</div>
+			
+			
+		</div>
+		
+		<div class="shopDetailfo">
+			<div class="shopDetailFirst">
+				<ul>
+					<li>
+						<span class="shopDetailOne">连卡佛</span>
+						<span class="shopDetailTwo">单笔消费1000港币，50港币返现</span>
+						<a href="detail2.html">
+						<button>了解详情</button>
+						</a>
+					</li>
+					<img src="img/merchants_picture1.png" />
+				</ul>
+			</div>
+		</div>
+		<div class="shopDetailBeauty">
+
+			<div class="shopDetailFirst">
+				<ul>
+					<li>
+						<span class="shopDetailOne">Beauty&You </span>
+						<span class="shopDetailTwo">单笔消费1000港币，50港币返现</span>
+						<button>了解详情</button>
+					</li>
+					<img src="img/merchants_picture2.png" />
+				</ul>
+			</div>
+
+		</div>
+		<div class="shopDetailZhuli">
+			<div class="shopDetailFirst">
+				<ul>
+					<li>
+						<span class="shopDetailOne">茱莉寇</span>
+						<span class="shopDetailTwo">单笔消费1000港币，50港币返现</span>
+						<button>了解详情</button>
+					</li>
+					<img src="img/merchants_picture3.png" />
+				</ul>
+			</div>
+		</div>
+		<div class="shopDetailAlfred">
+			<div class="shopDetailFirst">
+				<ul>
+					<li>
+						<span class="shopDetailOne">Alfred Dunhill</span>
+						<span class="shopDetailTwo">单笔消费1000港币，50港币返现</span>
+						<button>了解详情</button>
+					</li>
+					<img src="img/merchants_picture4.png" />
+				</ul>
+			</div>
+		</div>
+
+
+
+
+		<script src="js/mui.min.js" type="text/javascript" charset="UTF-8"></script>
+		<script src="js/mui.picker.js" type="text/javascript" charset="UTF-8"></script>
+		<script src="js/mui.poppicker.js" type="text/javascript" charset="UTF-8"></script>
+
+		<script>
+			(function($, doc) {
+				$.init();
+				$.ready(function() {
+					/**
+					 * 获取对象属性的值
+					 * 主要用于过滤三级联动中，可能出现的最低级的数据不存在的情况，实际开发中需要注意这一点；
+					 * @param {Object} obj 对象
+					 * @param {String} param 属性名
+					 */
+					var _getParam = function(obj, param) {
+						return obj[param] || '';
+					};
+					//普通示例
+					var userPicker = new $.PopPicker();
+					userPicker.setData([{
+						value: 'ywj',
+						text: '连卡佛'
+
+					}, {
+						value: 'aaa',
+						text: 'Beauty&You'
+					}, {
+						value: 'lj',
+						text: '茱莉寇'
+					}, {
+						value: 'ymt',
+						text: 'Alfred Dunhill'
+					}]);
+					
+					
+					
+					
+					var showUserPickerButton = doc.getElementById('showUserPicker');
+					
+					var userResult = doc.getElementById('userResult');
+					
+					showUserPickerButton.addEventListener('tap', function(event) {
+						userPicker.show(function(items) {
+							
+							console.log(items[0].text );
+							userResult.innerText =items[0].text;
+							//返回 false 可以阻止选择框的关闭
+							//return false;
+						});
+					}, false);
+					
+
+				});
+			})(mui, document);
+		</script>
+	</body>
+</html>

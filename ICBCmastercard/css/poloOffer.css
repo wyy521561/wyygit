@@ -1,0 +1,175 @@
+body,html{
+	width: 100%;
+	height: 100%;
+	font-size: 25px;
+	color: #231f20;
+}
+.header{
+	height: 2.92rem;
+	padding: 0rem 0.3rem 0;
+}
+.headerLogo{
+	height: 100%;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	box-sizing: border-box;
+	background: #fff;
+}
+.headerLogo_Left{
+	width:7.44rem;
+	height: 0.9rem;
+	margin-top: 1rem;
+	margin-left: 0.6rem;
+}
+.headerLogo_Left img{
+	width: 7.44rem;
+	height: 0.9rem;
+}
+.headerLogo_Right{
+	width: 4.58rem;
+	height: 1.08rem;
+	margin-top: 1rem;
+	margin-right: 0.6rem;
+}
+.headerLogo_Right img{
+	width: 4.58rem;
+	height: 1.08rem;
+}
+.shop{
+	height:2rem;
+	background: #F0F0F0;
+	padding: 0 0.8rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+}
+.shopLeft{
+	display: flex;
+	align-content: center;
+	align-items: center;
+}
+.shopLeftWords{
+	color:#231F20;
+	font-size: 0.7rem;
+	font-weight:bold;
+}
+.shopRight{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: center;
+	align-items: center;
+	border-radius: 0.3rem;
+	outline: none;
+	text-decoration: none;
+	font-size: 0.6rem;
+	background: #FF9900;
+	color:#FFFFFF;
+	padding: 0.16rem 0rem;
+	font-weight: normal;
+}
+.shop .shopRight span{
+	margin-left: 0.3rem;
+}
+.shop .shopRight img{
+	width: 0.8rem;
+	height: 0.8rem;
+	margin-left: 0.5rem;
+}
+.shopDetail{
+	padding: 0 0.8rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: center;
+	align-items: center;
+}
+.shopDetailFirst{
+	width: 13.72rem;
+	height:4.84rem;
+	border: 1px solid #FF9900;
+	border-radius: 0.3rem;
+	margin-top: 0.6rem;
+}
+.shopDetailFirst ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+}
+.shopDetailFirst ul li{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: center;
+/* 	align-items: center; */
+	margin-top: 0.7rem;
+}
+.shopDetailFirst ul li span{
+	
+	height: 1rem;
+	
+}
+.shopDetailFirst ul li button{
+	width:4.4rem;
+    border-radius: 1rem;
+    outline: none;
+    text-decoration: none;
+    font-size: 0.5rem;
+    background: #FF9900;
+    color: #FFFFFF;
+    padding: 0.16rem 0rem;
+	margin-left: 0.8rem;
+}
+.shopDetailOne{
+	margin-left:0.8rem;
+	font-size: 0.7rem;
+	margin-bottom: 0.3rem;
+}
+.shopDetailTwo{
+	margin-left: 0.8rem;
+	font-size: 0.55rem;
+}
+.shopDetailFirst ul img{
+	width: 4rem;
+	height: 4rem;
+	margin-right: 0.4rem;
+	margin-top: 0.4rem;
+}
+.shopDetailfo{
+	padding: 0 0.8rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: center;
+	align-items: center;
+}
+.shopDetailBeauty{
+	padding: 0 0.8rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: center;
+	align-items: center;
+}
+.shopDetailZhuli{
+	padding: 0 0.8rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: center;
+	align-items: center;
+}
+.shopDetailAlfred{
+	padding: 0 0.8rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: center;
+	align-items: center;
+	margin-bottom: 0.7rem;
+}

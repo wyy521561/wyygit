@@ -1,0 +1,294 @@
+body,html{
+	width: 100%;
+	height: 100%;
+	font-size: 25px;
+	color: #231F20;
+}
+.header{
+	height:4.5rem;
+
+}
+.headerLogo{
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	box-sizing: border-box;
+	background:url(../img/polo_bg.png);
+	background-size:auto 4.38rem ;
+}
+.headerLogo_Left{
+	width: 7.44rem;
+	height: 0.9rem;
+	margin-top: 0.8rem;
+	margin-left: 0.5rem;
+}
+.headerLogo_Left img{
+	width: 7.44rem;
+	height: 0.9rem;
+}
+.headerLogo_Right{
+	width: 4.58rem;
+	height: 1.08rem;
+	margin-top: 0.8rem;
+	margin-right: 0.5rem;
+}
+.headerLogo_Right img{
+	width: 4.58rem;
+	height: 1.08rem;
+}
+.label{
+	position: fixed;
+	width: 6.5rem;
+	height: 1rem;
+	background: url(../img/polo_scroll.png) no-repeat;
+	background-size: 6.5rem 1rem;
+	margin-top: 3rem;
+	right: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	font-size: 0.5rem;
+	align-content: center;
+	align-items: center;
+	color: #F0F0F0;
+}
+.label span{
+	display: block;
+	margin-right: 0.2rem;
+}
+.noPriceTravel{
+	height: 1.5rem;
+	margin-top: 1rem;
+	
+}
+.noPriceTravel_items{
+	width: 14.8rem;
+	height: 1.5rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+	align-items: center;
+}
+.noPriceTravel_items .first{
+	display: block;
+	width: 1.56rem;
+	font-weight: 100;
+	margin-right: 0.4rem;
+	margin-left: 3rem;
+}
+.noPriceTravel_items img{
+	width: 0.6rem;
+	height: 0.58rem;
+	margin-left: 0.5rem;
+	margin-top: -0.3rem;
+}
+.noPriceTravel_items ul li{
+	font-size: 0.8rem;
+	font-weight: bold;
+
+	margin-left: 0.4rem;
+	margin-top: -0.1rem;
+}
+.noPriceTravel_items .second{
+	display: block;
+	width: 1.56rem;
+	font-weight: 100;
+	margin-right: 2.98rem;
+	margin-left: 0.4rem;
+}
+.noPriceTravel_itemsCard{
+	height:9.56rem;
+	display: flex;
+	justify-content: flex-start;
+	align-content: center;
+	align-items: center;
+	padding: 0 1.22rem;
+}
+.noPriceTravel_itemsCard ul li{
+	width:4.18rem;
+	height: 8.94rem;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+}
+.travelLogo{
+	display: flex;
+	flex-direction: column;
+	padding: 0.2rem 1.22rem;
+	margin-top: 1rem;
+}
+.travelLogo ul{
+	display: flex;
+	flex-direction: row;
+	height: 4.82rem;
+	justify-content: space-around;
+	box-sizing: border-box;
+	
+}
+.travelLogo ul li{
+	display: flex;
+	flex-direction: column;
+}
+.travelLogo ul li img{
+	width:3.04rem;
+	height: 3.04rem;
+}
+.travelLogo ul li span{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	margin-top: 0.5rem;
+	width:3.04rem;
+	font-size: 0.6rem;
+	color: #231F20;
+}
+.footer{
+
+	height: 3rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+.footer .aboutUs{
+
+	color: #B0B0B0;
+	font-size: 0.55rem;
+	text-decoration: none;
+	
+}
+.footer .problem{
+	color: #B0B0B0;
+	font-size: 0.55rem;
+	text-decoration: none;
+	padding-left: 0.2rem;
+}
+.footer a{
+	display: block;
+	color: #B0B0B0;
+	position: relative;
+	padding-right: 0.3rem;
+}
+.footer a::after{
+	content: "";
+	position: absolute;
+	width: 0.1rem;
+	top: 0rem;
+	height: 0.6rem;
+	right: 0;
+	background: #B0B0B0;
+}
+.footer a.problem::after{
+	display: none;
+}
+.aboutUsDetail{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;	
+}
+.aboutUsDetailBg{
+	background: #000000;
+	opacity: 0.4;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.aboutUsDetailBlock{
+	position: fixed;
+	z-index: 999;
+	background: #fff;
+	width: 12.82rem;
+	/* left: 1.1rem;
+	right: 1.08rem; */
+	padding: 0.2rem 0.2rem;
+	transition: top 1s;
+	border-radius:0.3rem ;
+	top: 35%;
+}
+.aboutUsDetailBlock_Title{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	color: #FF9900;
+	font-size: 0.7rem;
+	margin-bottom: 0.2rem;
+	margin-top: 0.3rem;
+}
+.aboutUsDetailBlock_Article{
+	display: flex;
+	flex-wrap: wrap;
+	line-height: 1rem;
+	font-size: 0.5rem;
+	color: #231F20;
+	margin:0.4rem 0.4rem;
+	
+}
+.problemDetail{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+.problemDetailBg{
+	background: #000000;
+	opacity: 0.4;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.problemDetailBlock{
+	position: fixed;
+	z-index: 999;
+	background: #fff;
+	width: 12.82rem;
+/* 	left: 1.1rem;
+	right: 1.08rem; */
+	padding: 0.2rem 0.2rem;
+	transition: top 1s;
+	border-radius:0.3rem ;
+	top: 20%;
+}
+.problemDetailBlock_Title{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	color: #FF9900;
+	font-size: 0.7rem;
+	margin-bottom: 0.2rem;
+	margin-top: 0.3rem;
+}
+.problemDetailBlock_Article{
+	display: flex;
+	flex-wrap: wrap;
+	line-height: 1rem;
+	font-size: 0.5rem;
+	color: #231F20;
+	margin:0.4rem 0.4rem;
+	
+}
+
