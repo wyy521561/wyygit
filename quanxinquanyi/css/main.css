@@ -1,0 +1,144 @@
+.main_block{
+	width: 100%;
+	padding-top: 60px;
+}
+.main{
+	width: 1280px;
+	min-width: 1200px;
+	max-width: 1920px;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	min-height: 300px;
+}
+.crumbs_block {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	height: 60px;
+	align-content: center;
+	align-items: center;
+	margin-top: 5px;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.crumbs_block span {
+	position: relative;
+	padding-right: 30px;
+	font-size: 14px;
+}
+
+.crumbs_block span:after {
+	content: '>';
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 20px;
+	height: 20px;
+	color: #cccccc
+}
+
+.crumbs_block span:last-child:after {
+	content: "";
+}
+.brand_banner_block{
+	height: 350px;
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 40px;
+}
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-container img {
+	width: 100%;
+	display: block;
+}
+.hot_brand{
+	border-top:3px solid #47B2AC ;
+}
+.hot_title{
+	border-bottom: 1px solid #DDDDDD;
+	height: 80px;
+	line-height: 80px;
+	font-size: 14px;
+	padding-left: 20px;
+}
+.hot_brand>ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 10px;
+	flex-wrap: wrap;
+	
+}
+.hot_brand>ul li{
+	width: 202px;
+	border: 1px solid #EEEEEE;
+	margin-bottom: 10px;
+}
+.hot_brand>ul li a{
+	display: block;
+}
+.hot_brand>ul li a img{
+	width: auto;
+	display: block;
+}
+.all_brand{
+	border-top: 3px solid #47B2AC;
+	margin-top: 30px;
+	margin-bottom: 100px;
+}
+.all-title{
+	border-bottom: 1px solid #DDDDDD;
+	height: 80px;
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	align-items: center;
+	padding-left: 20px;
+	font-size: 14px;
+}
+.all-title>ul{
+	font-size: 12px;
+	margin-left: 20px;
+	width: 1000px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.all_list_ul{
+	display: flex;
+	flex-direction: column;
+	font-size: 14px;
+}
+.all_list_li{
+	border-bottom: 1px solid #DDDDDD;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+    padding: 20px 0;
+}
+.all_list_li>span{
+	display: block;
+	width: 150px;
+	text-align: center;
+}
+.list_detail_ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	width: 1100px;
+	flex-wrap: wrap;
+	font-size: 14px;
+}
+.list_detail_li{
+	margin-bottom: 10px;
+	padding: 0 20px;
+}
+.all_list_li_second{
+	background: #f5f5f5;
+	
+}
